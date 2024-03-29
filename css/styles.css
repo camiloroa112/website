@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*
+{
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+body
+{
+    background-image: url('../img/rounded-lines.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.shadow
+{
+    border-radius: 30px;
+}
+
+#profile-abilities h2
+{
+    font-size: 3vh;
+}
+
+#profile-abilities h3
+{
+    font-size: 2.2vh;
+}
+
+#profile-abilities h6
+{
+    font-size: 1.45vh;
+}
+
+#profile-abilities .software img
+{
+    height: 25px;
+    width: 25px;
+    filter: grayscale(100%);
+}
+
+#profile-abilities .education img .umng, #profile-abilities .education img .ccg 
+{
+    height: 95px;
+    width: 88px;
+    margin-left: 20px;
+}
+
+#profile-abilities .education img .unicataluna
+{
+    height: 40px;
+    width: 80px;
+    margin-left: 22px;
+}
+
+#profile-abilities .education p
+{
+    font-size: 14px;
+}
+
+#profile-abilities .education-desc
+{
+    margin-left: 15px;
+}
+
+#profile-abilities .professional-background img, #profile-abilities .education img, #profile-abilities .hobbies img
+{
+    filter: grayscale(100%);
+}
+
+#profile-abilities .software img:hover, #profile-abilities .professional-background img:hover, #profile-abilities .education img:hover, #profile-abilities .hobbies img:hover
+{
+    filter: grayscale(0%);
+}
+
+#profile-abilities .software .col-sm-3
+{
+    width: 19%;
+}
+
+#profile-abilities .education .col-sm-3
+{
+    width: 10vh;
+}
+
+#profile-abilities .hobbies .col-sm-3
+{
+    width: 8vh;
+}
+
+#profile-abilities .hobbies .col-sm-2
+{
+    width: 6.6vh;
+}
+
+#profile-abilities .education .col-sm-8
+{
+    width: 270px;
+}
+
+#profile-abilities .languages ul
+{
+    padding-left: 0;
+}
+
+#profile-abilities .languages ul li
+{
+    color: #050301;
+}
+
+#profile-abilities .languages ul li
+{
+    list-style-type: none;
+}
+
+#profile-abilities .professional-background
+{
+    text-align: justify;
+    color: #aab6c1ff;
+}
+
+#profile-abilities .professional-background, .languages p
+{
+    text-align: justify;
+}
+
+#profile-abilities h4
+{
+    font-size: 1.6vh;
+    overflow-wrap: break-word;
+}
+
+#profile-abilities .professional-background img
+{
+    height: 3vh;
+}
+
+#profile-abilities h5
+{
+    font-size: 1.38vh;
+}
+
+#profile-name a
+{
+    color: #aab6c1ff;
+}
+
+#profile-name i:hover, footer i:hover
+{
+    color: #89ABE3;
+}
+
+#profile-name h1
+{
+    font-size: 7vh;
+    font-weight: 500;
+    color: #aab6c1ff;
+}
+
+#profile-name h4
+{
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+#profile-name i
+{
+    font-size: 25px;
+    -webkit-text-stroke: 1px;
+    margin-right: 10px;
+}
+
+#profile-name .contact
+{
+    font-size: 1.8vh;
+    text-align: center;
+    border-bottom: 3px solid;
+    color: #aab6c1ff;
+    padding-bottom: 20px;
+}
+
+#profile-name .email
+{
+    margin-left: 28px;
+}
+
+#profile-name .whatsapp
+{
+    margin-left: 32px;
+}
+
+footer i
+{
+    font-size: 25px;
+    color: #aab6c1ff;
+}
+
+footer .name
+{
+    color: #aab6c1ff;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 15px;
+    width: 100%;
+    display: inline-block;
+}
