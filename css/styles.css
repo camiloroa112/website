@@ -41,7 +41,7 @@ body
 
 #profile-abilities h2
 {
-    font-size: 3vh;
+    font-size: 25px;
 }
 
 #profile-abilities h3
@@ -51,33 +51,12 @@ body
 
 #profile-abilities h6
 {
-    font-size: 1.45vh;
-}
-
-#profile-abilities .software img
-{
-    height: 25px;
-    width: 25px;
-    filter: grayscale(100%);
-}
-
-#profile-abilities .education img .umng, #profile-abilities .education img .ccg 
-{
-    height: 95px;
-    width: 88px;
-    margin-left: 20px;
-}
-
-#profile-abilities .education img .unicataluna
-{
-    height: 40px;
-    width: 80px;
-    margin-left: 22px;
+    font-size: 1.2vh;
 }
 
 #profile-abilities .education p
 {
-    font-size: 14px;
+    font-size: 12px;/*14px*/
 }
 
 #profile-abilities .education-desc
@@ -85,39 +64,45 @@ body
     margin-left: 15px;
 }
 
-#profile-abilities .professional-background img, #profile-abilities .education img, #profile-abilities .hobbies img
+#profile-abilities .professional-background img
 {
     filter: grayscale(100%);
+    width: 100px;
+}
+
+#profile-abilities .hobbies img
+{
+    filter: grayscale(100%);
+    width: 25px;
+    height: 25px;
+}
+
+#profile-abilities .education img
+{
+    filter: grayscale(100%);
+    width: 72px;
+}
+
+#profile-abilities .software img
+{
+    filter: grayscale(100%);
+    height: 25px;
+    width: 25px;
+}
+
+#profile-abilities .software .col-sm-3
+{
+    width: 18%;
+}
+
+#profile-abilities .hobbies .col-sm-2
+{
+    width: 18%;
 }
 
 #profile-abilities .software img:hover, #profile-abilities .professional-background img:hover, #profile-abilities .education img:hover, #profile-abilities .hobbies img:hover
 {
     filter: grayscale(0%);
-}
-
-#profile-abilities .software .col-sm-3
-{
-    width: 19%;
-}
-
-#profile-abilities .education .col-sm-3
-{
-    width: 10vh;
-}
-
-#profile-abilities .hobbies .col-sm-3
-{
-    width: 8vh;
-}
-
-#profile-abilities .hobbies .col-sm-2
-{
-    width: 6.6vh;
-}
-
-#profile-abilities .education .col-sm-8
-{
-    width: 270px;
 }
 
 #profile-abilities .languages ul
@@ -148,18 +133,17 @@ body
 
 #profile-abilities h4
 {
-    font-size: 1.6vh;
-    overflow-wrap: break-word;
+    font-size: 15px;
 }
 
-#profile-abilities .professional-background img
+.education .col-sm-8
 {
-    height: 3vh;
+    width: 244px;
 }
 
 #profile-abilities h5
 {
-    font-size: 1.38vh;
+    font-size: 12px;
 }
 
 #profile-name a
@@ -187,7 +171,7 @@ body
 
 #profile-name i
 {
-    font-size: 25px;
+    font-size: 16px;
     -webkit-text-stroke: 1px;
     margin-right: 10px;
 }
@@ -199,16 +183,6 @@ body
     border-bottom: 3px solid;
     color: #aab6c1ff;
     padding-bottom: 20px;
-}
-
-#profile-name .email
-{
-    margin-left: 28px;
-}
-
-#profile-name .whatsapp
-{
-    margin-left: 32px;
 }
 
 footer i
@@ -225,4 +199,15 @@ footer .name
     font-size: 15px;
     width: 100%;
     display: inline-block;
+}
+
+@media (max-width > 932)
+{
+    #profile-abilities .hobbies img
+    {
+        filter: grayscale(100%);
+        width: 90px;
+        height: 80px;
+        padding: 15px;
+    }
 }
