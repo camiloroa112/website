@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-*
+* 
 {
     font-family: "Bai Jamjuree", sans-serif;
 }
 
-body
+body 
 {
     background-image: url('../img/rounded-lines.jpg');
     background-position: top;
@@ -13,24 +13,13 @@ body
     background-size: cover;
 }
 
-.profile
-{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-
-.shadow
-{
-    border-radius: 30px;
-}
-
-.navbar a
+.navbar a 
 {
     color: #89ABE3;
 }
 
-.navbar a:hover, .navbar-nav .nav-item .nav-link.active 
+.navbar a:hover,
+.navbar-nav .nav-item .nav-link.active 
 {
     color: #89ABE3;
     text-decoration: underline #89ABE3;
@@ -39,137 +28,176 @@ body
     text-underline-offset: 4px;
 }
 
-#profile-abilities h2
+.profile 
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.shadow 
+{
+    border-radius: 30px;
+}
+
+#profile-abilities h2 
 {
     font-size: 25px;
 }
 
-#profile-abilities h3
+#profile-abilities h3 
 {
-    font-size: 2.2vh;
+    font-size: 16px;
 }
 
-#profile-abilities h6
+#profile-abilities h6 
 {
     font-size: 1.2vh;
 }
 
-#profile-abilities .education p
-{
-    font-size: 12px;/*14px*/
-}
-
-#profile-abilities .education-desc
-{
-    margin-left: 15px;
-}
-
-#profile-abilities .professional-background img
-{
-    filter: grayscale(100%);
-    width: 100px;
-}
-
-#profile-abilities .hobbies img
-{
-    filter: grayscale(100%);
-    width: 25px;
-    height: 25px;
-}
-
-#profile-abilities .education img
-{
-    filter: grayscale(100%);
-    width: 72px;
-}
-
-#profile-abilities .software img
-{
-    filter: grayscale(100%);
-    height: 25px;
-    width: 25px;
-}
-
-#profile-abilities .software .col-sm-3
-{
-    width: 18%;
-}
-
-#profile-abilities .hobbies .col-sm-2
-{
-    width: 18%;
-}
-
-#profile-abilities .software img:hover, #profile-abilities .professional-background img:hover, #profile-abilities .education img:hover, #profile-abilities .hobbies img:hover
-{
-    filter: grayscale(0%);
-}
-
-#profile-abilities .languages ul
-{
-    padding-left: 0;
-}
-
-#profile-abilities .languages ul li
-{
-    color: #050301;
-}
-
-#profile-abilities .languages ul li
-{
-    list-style-type: none;
-}
-
-#profile-abilities .professional-background
-{
-    text-align: justify;
-    color: #aab6c1ff;
-}
-
-#profile-abilities .professional-background, .languages p
-{
-    text-align: justify;
-}
-
-#profile-abilities h4
-{
-    font-size: 15px;
-}
-
-.education .col-sm-8
-{
-    width: 244px;
-}
-
-#profile-abilities h5
+#profile-abilities .education p 
 {
     font-size: 12px;
 }
 
-#profile-name a
+#profile-abilities .education-desc 
+{
+    margin-left: 15px;
+}
+
+#profile-abilities .professional-background .col-lg-2 img,
+#profile-abilities .professional-background .col-xl-2 img 
+{
+    filter: grayscale(100%);
+    width: 18vh;
+}
+
+#profile-abilities .professional-background .col-sm-12 img,
+#profile-abilities .professional-background .col-md-12 img
+{
+    filter: grayscale(100%);
+    width: 14vh;
+}
+
+#profile-abilities .hobbies img 
+{
+    filter: grayscale(100%);
+    width: 25px;
+    height: 25px;
+}
+
+#profile-abilities .education img 
+{
+    filter: grayscale(100%);
+    max-width: 100%;
+}
+
+#profile-abilities .education .col-sm-4 img 
+{
+    width: 84px;
+}
+
+#profile-abilities .software img 
+{
+    filter: grayscale(100%);
+    height: 25px;
+    width: 25px;
+}
+
+#profile-abilities .software .col-sm-3 
+{
+    width: 18%;
+}
+
+#profile-abilities .hobbies .col-sm-2 
+{
+    width: 18%;
+}
+
+#profile-abilities .education img:hover,
+#profile-abilities .hobbies img:hover,
+#profile-abilities .software img:hover,
+#profile-abilities .professional-background img:hover,
+#profile-abilities .professional-background .col-sm-12 img:hover,
+#profile-abilities .professional-background .col-md-12 img:hover,
+#profile-abilities .professional-background .col-lg-2 img:hover,
+#profile-abilities .professional-background .col-xl-2 img:hover 
+{
+    filter: grayscale(0%);
+}
+
+#profile-abilities .languages ul 
+{
+    padding-left: 0;
+}
+
+#profile-abilities .languages ul li 
+{
+    color: #050301;
+}
+
+#profile-abilities .languages ul li 
+{
+    list-style-type: none;
+}
+
+#profile-abilities .professional-background 
+{
+    text-align: justify;
+    color: #aab6c1ff;
+}
+
+#profile-abilities .professional-background,
+.languages p 
+{
+    text-align: justify;
+}
+
+#profile-abilities h4 
+{
+    font-size: 16px;
+}
+
+.education .col-lg-8 
+{
+    width: 85%;
+}
+
+.education .col-md-8 
+{
+    width: 60%;/*200px*/
+}
+
+#profile-abilities h5 
+{
+    font-size: 12px;
+}
+
+#profile-name a 
 {
     color: #aab6c1ff;
 }
 
-#profile-name i:hover, footer i:hover
+#profile-name i:hover,
+footer i:hover 
 {
     color: #89ABE3;
 }
 
-#profile-name h1
+#profile-name h1 
 {
     font-size: 7vh;
     font-weight: 500;
     color: #aab6c1ff;
 }
 
-#profile-name h4
+#profile-name h4 
 {
-    font-size: 2vh;
+    font-size: 16px;
     font-weight: 400;
 }
 
-#profile-name i
+#profile-name i 
 {
     font-size: 16px;
     -webkit-text-stroke: 1px;
@@ -178,20 +206,36 @@ body
 
 #profile-name .contact
 {
-    font-size: 1.8vh;
+    font-size: 14px;
     text-align: center;
     border-bottom: 3px solid;
     color: #aab6c1ff;
     padding-bottom: 20px;
 }
 
-footer i
+#profile-name .email
+{
+    width: 35%;
+    padding-left: 15px;
+}
+
+#profile-name .whatsapp 
+{
+    width: 30%;
+}
+
+#profile-name .city 
+{
+    width: 20%;
+}
+
+footer i 
 {
     font-size: 25px;
     color: #aab6c1ff;
 }
 
-footer .name
+footer .name 
 {
     color: #aab6c1ff;
     text-decoration: none;
@@ -199,15 +243,4 @@ footer .name
     font-size: 15px;
     width: 100%;
     display: inline-block;
-}
-
-@media (max-width > 932)
-{
-    #profile-abilities .hobbies img
-    {
-        filter: grayscale(100%);
-        width: 90px;
-        height: 80px;
-        padding: 15px;
-    }
 }
