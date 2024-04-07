@@ -1,31 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 
 * 
 {
     font-family: "Bai Jamjuree", sans-serif;
 }
 
-body 
+#hoja-de-vida 
 {
-    background-image: url('../img/rounded-lines.jpg');
-    background-position: top;
+    background-image: url('../img/futuristic.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+#inicio
+{
+    background-image: url('../img/futuristic.jpg');
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #050301;
 }
 
-.navbar a 
+#portafolio
 {
-    color: #89ABE3;
+    background-image: url('../img/futuristic.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #050301;
 }
 
-.navbar a:hover,
-.navbar-nav .nav-item .nav-link.active 
+.navbar .nav-item .nav-link
 {
-    color: #89ABE3;
-    text-decoration: underline #89ABE3;
-    text-decoration-style: solid;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 4px;
+    color: darkcyan;
+}
+
+.navbar-nav .nav-item .nav-link.active, .navbar-nav .nav-item .nav-link:hover
+{
+    color: #5e00a2;
+    border-bottom: 1px solid #5e00a2;
 }
 
 .profile 
@@ -38,6 +57,60 @@ body
 .shadow 
 {
     border-radius: 30px;
+}
+
+#inicio .brief-description
+{
+    margin-top: 20vh;
+    height: 42vh;
+    padding: 0px;
+    padding-top: 14vh;
+    vertical-align: middle;
+    margin-bottom: 20vh;
+}
+
+#inicio .col-xs-12
+{
+    height: 20vh;
+}
+
+#inicio h1
+{
+    font-size: 3vh;
+    color: #471369;
+}
+
+#inicio h4
+{
+    font-size: clamp(18px, 2vw, 16px);
+    font-family: "Aldrich", sans-serif;
+    color:darkcyan;
+}
+
+#inicio h2
+{
+    font-family: "Aldrich", sans-serif;
+}
+
+#inicio .description
+{
+    margin-top: 30vh;
+    font-size: clamp(17px, 1.6vw, 16px);
+    color: white;
+    text-align: justify;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90%);
+    width: 80%;
+    border-radius: 22px;
+}
+
+#inicio .hello
+{
+    width: 90%;
+}
+
+#inicio .brief-description img
+{
+    width: clamp(40px, 8vw, 80px);
 }
 
 #profile-abilities h2 
@@ -62,7 +135,7 @@ body
 
 #profile-abilities .education-desc 
 {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 #profile-abilities .professional-background .col-lg-2 img,
@@ -75,20 +148,29 @@ body
 #profile-abilities .professional-background .col-sm-12 img,
 #profile-abilities .professional-background .col-md-12 img
 {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
-    width: 14vh;
+    transition: all 0.5s ease;
+    width: 26vh;
 }
 
 #profile-abilities .hobbies img 
 {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
-    width: 25px;
-    height: 25px;
+    transition: all 0.5s ease;
+    width: 80%;
+    height: 80%;
 }
 
 #profile-abilities .education img 
 {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
+    transition: all 0.5s ease;
     max-width: 100%;
 }
 
@@ -99,7 +181,10 @@ body
 
 #profile-abilities .software img 
 {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
+    transition: all 0.5s ease;
     height: 25px;
     width: 25px;
 }
@@ -123,7 +208,11 @@ body
 #profile-abilities .professional-background .col-lg-2 img:hover,
 #profile-abilities .professional-background .col-xl-2 img:hover 
 {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transition: all 0.5s ease;
     filter: grayscale(0%);
+    transform: scale(1.4);
 }
 
 #profile-abilities .languages ul 
@@ -141,10 +230,15 @@ body
     list-style-type: none;
 }
 
+#profile-abilities .languages
+{
+    background-image: linear-gradient( 110.3deg,  rgba(72,85,99,1) 8.8%, rgba(127,146,166,1) 95.1% );
+}
+
 #profile-abilities .professional-background 
 {
     text-align: justify;
-    color: #aab6c1ff;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% );
 }
 
 #profile-abilities .professional-background,
@@ -181,7 +275,8 @@ body
 #profile-name i:hover,
 footer i:hover 
 {
-    color: #89ABE3;
+    color: darkcyan;
+    transition: 500ms ease-in-out;
 }
 
 #profile-name h1 
@@ -241,6 +336,85 @@ footer .name
     text-decoration: none;
     padding-bottom: 10px;
     font-size: 15px;
-    width: 100%;
-    display: inline-block;
+}
+
+#inicio .btn-mas
+{
+    width: 124px;
+    border-radius: 20px;
+    border-color: darkcyan;
+    color: white;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90%);
+}
+
+#inicio .btn-mas:hover
+{
+    transition: 500ms ease-in-out;
+    border-color: darkcyan;
+    background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+}
+
+#inicio #bienvenida p
+{
+    width: 75%;
+}
+
+@media only screen and (width > 1537px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 18vh;
+        height: 66vh;
+        padding: 0px;
+        padding-top: 18vh;
+        vertical-align: middle;
+        margin-bottom: 2vh;
+    }
+}
+
+@media only screen and (width < 376px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 18vh;
+        height: 61vh;
+        padding: 0px;
+        padding-top: 8vh;
+        vertical-align: middle;
+        margin-bottom: 2vh;
+    }
+}
+
+@media only screen and (width >= 667px) and (width < 992px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 20vh;
+        height: 28.5vh;
+        padding: 0px;
+        padding-top: 9vh;
+        vertical-align: middle;
+        margin-bottom: 20vh;
+    }
+    #inicio h1
+    {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (width >= 390px) and (width <= 431px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 22vh;
+        height: 61vh;
+        padding: 0px;
+        padding-top: 15vh;
+        vertical-align: middle;
+        margin-bottom: 2vh;
+    }
+    #inicio h1
+    {
+        font-size: 24px;
+    }
 }
