@@ -514,3 +514,20 @@ footer .name
         font-size: 24px;
     }
 }
+
+@media only screen and (width = 740px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 12vh;
+        height: 50vh;
+        padding: 0px;
+        padding-top: 9vh;
+        vertical-align: middle;
+        margin-bottom: 2vh;
+    }
+    #inicio h1
+    {
+        font-size: 24px;
+    }
+}
