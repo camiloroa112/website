@@ -60,7 +60,7 @@
 
 #proyectos .background p
 {
-    font-size: 15px;
+    font-size: 13px;
     color: black;
     text-align: justify;
 }
@@ -70,7 +70,7 @@
     color: white;
 }
 
-#proyectos img
+#portafolio #proyectos img
 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -78,13 +78,9 @@
 
 #proyectos h2
 {
-    color: white;
-}
-
-#proyectos h2
-{
     background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.8% );
     text-align: center;
+    color: white;
     transition: 0.5s;
     background-size: 200% auto;
 }
@@ -94,14 +90,15 @@
     background-position: right center;
 }
 
-#proyectos .resource
+#proyectos .col-md-6 .resource
 {
     border-radius: 20px;
     background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    width: 95px;
+    width: 12vh;
+    font-size: 2vh;
 }
 
 #proyectos .resource:hover
@@ -130,7 +127,7 @@
 #inicio .brief-description
 {
     margin-top: 20vh;
-    height: 42vh;
+    height: 40vh;
     padding: 0px;
     padding-top: 14vh;
     vertical-align: middle;
@@ -460,20 +457,33 @@ footer .name
     #inicio .brief-description
     {
         margin-top: 18vh;
-        height: 66vh;
+        height: 64vh;
         padding: 0px;
         padding-top: 18vh;
         vertical-align: middle;
-        margin-bottom: 2vh;
+        margin-bottom: 2.9vh;
     }
 }
 
-@media only screen and (width < 376px)
+@media only screen and (width <= 360px)
 {
     #inicio .brief-description
     {
-        margin-top: 18vh;
-        height: 62vh;
+        margin-top: 20vh;
+        height: 60vh;
+        padding: 0px;
+        padding-top: 14vh;
+        vertical-align: middle;
+        margin-bottom: 2.5vh;
+    }
+}
+
+@media only screen and (width = 375px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 20vh;
+        height: 58.5vh;
         padding: 0px;
         padding-top: 14vh;
         vertical-align: middle;
@@ -481,33 +491,171 @@ footer .name
     }
 }
 
-@media only screen and (width >= 667px) and (width < 992px)
+@media only screen and (width = 390px)
 {
     #inicio .brief-description
     {
         margin-top: 20vh;
-        height: 28.5vh;
+        height: 62vh;
         padding: 0px;
-        padding-top: 7vh;
+        padding-top: 14vh;
+        vertical-align: middle;
+        margin-bottom: 2.5vh;
+    }
+}
+
+@media only screen and (width >= 412px) and (width <= 414px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 26.2vh;
+        height: 33.5vh;
+        padding: 0px;
+        padding-top: 12vh;
+        vertical-align: middle;
+        margin-bottom: 26vh;
+    }
+    #inicio h1
+    {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (width = 667px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 20vh;
+        height: 25.5vh;
+        padding: 0px;
+        padding-top: 5.6vh;
         vertical-align: middle;
         margin-bottom: 20vh;
     }
     #inicio h1
     {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
-@media only screen and (width >= 390px) and (width <= 431px)
+@media only screen and (width = 896px)
 {
     #inicio .brief-description
     {
-        margin-top: 22vh;
+        margin-top: 22.6vh;
+        height: 23.2vh;
+        padding: 0px;
+        padding-top: 4.5vh;
+        margin-bottom: 22.6vh;
+    }
+    #inicio h1
+    {
+        font-size: 22px;
+    }
+
+    #proyectos .col-md-6 .resource
+    {
+        border-radius: 20px;
+        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        width: 20vh;
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (width = 844px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 22.2vh;
+        height: 22vh;
+        padding: 0px;
+        padding-top: 4vh;
+        margin-bottom: 22.2vh;
+    }
+    #inicio h1
+    {
+        font-size: 22px;
+    }
+
+    #proyectos .col-md-6 .resource
+    {
+        border-radius: 20px;
+        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        width: 20vh;
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (width = 915px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 22.8vh;
+        height: 22.8vh;
+        padding: 0px;
+        padding-top: 4.5vh;
+        margin-bottom: 22.8vh;
+    }
+    #inicio h1
+    {
+        font-size: 18px;
+    }
+
+    #proyectos .col-md-6 .resource
+    {
+        border-radius: 20px;
+        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        width: 20vh;
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (width = 932px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 23.2vh;
+        height: 23.2vh;
+        padding: 0px;
+        padding-top: 4.5vh;
+        margin-bottom: 23.2vh;
+    }
+    #inicio h1
+    {
+        font-size: 18px;
+    }
+
+    #proyectos .col-md-6 .resource
+    {
+        border-radius: 20px;
+        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        width: 20vh;
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (width = 430px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 22.5vh;
         height: 61vh;
         padding: 0px;
         padding-top: 15vh;
         vertical-align: middle;
-        margin-bottom: 2vh;
+        margin-bottom: 2.5vh;
     }
     #inicio h1
     {
