@@ -24,6 +24,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    height:100vh;
 }
 
 #portafolio
@@ -60,7 +61,7 @@
 
 #proyectos .background p
 {
-    font-size: 13px;
+    font-size: calc(0.45rem + 0.45vw + 0.08vh);/*13px*/
     color: black;
     text-align: justify;
 }
@@ -82,6 +83,7 @@
     text-align: center;
     color: white;
     transition: 0.5s;
+    font-size: calc(1rem + 0.8vw);
     background-size: 200% auto;
 }
 
@@ -90,15 +92,15 @@
     background-position: right center;
 }
 
-#proyectos .col-md-6 .resource
+#proyectos .resource
 {
     border-radius: 20px;
     background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    width: 12vh;
-    font-size: 2vh;
+    width: calc(2.3rem + 2vw + 2vh); /*12vh*/
+    font-size: calc(0.5rem + 0.5vw);
 }
 
 #proyectos .resource:hover
@@ -126,22 +128,33 @@
 
 #inicio .brief-description
 {
-    margin-top: 20vh;
+    margin-top: 24vh;
     height: 40vh;
     padding: 0px;
     padding-top: 14vh;
     vertical-align: middle;
-    margin-bottom: 20vh;
+    margin-bottom: 16.5vh;
 }
 
-#inicio .col-xs-12
+/* #inicio .col-xl-12
 {
-    height: 20vh;
+    height: calc(10rem + 28vh);
+    padding: 0px;
+    padding-top: calc(2rem + 7vh);
+    vertical-align: middle;
 }
+
+#inicio .col-lg-12
+{
+    height: calc(10rem + 28vh);
+    padding: 0px;
+    padding-top: calc(2rem + 7vh);
+    vertical-align: middle;
+} */
 
 #inicio h1
 {
-    font-size: 3vh;
+    font-size: calc(1rem + 1vh);
     color: darkcyan;
 }
 
@@ -425,10 +438,10 @@ footer .name
     padding-bottom: 10px;
     font-size: 15px;
 }
-       
+    
 #inicio .btn-mas
 {
-    width: 124px;
+    width: 128px;
     background-image: linear-gradient(to right, rgba(4,0,4,1) 0%, rgba(100,43,115,1) 51%, rgba(100,43,115,1) 100%);
     text-align: center;
     transition: 0.5s;
@@ -452,20 +465,60 @@ footer .name
     width: 75%;
 }
 
-@media only screen and (width > 1537px)
+@media only screen and (width = 280px)
 {
     #inicio .brief-description
     {
-        margin-top: 18vh;
-        height: 64vh;
+        margin-top: 20vh;
+        height: 50vh;
         padding: 0px;
-        padding-top: 18vh;
+        padding-top: 14vh;
         vertical-align: middle;
-        margin-bottom: 2.9vh;
+        margin-bottom: 10vh;
+    }
+
+    #inicio .btn-mas
+    {
+        width: 88px;
+        font-size: 11px;
+    }
+
+    #inicio h1
+    {
+        font-size: 18px;
+    }
+
+    #proyectos .background p
+    {
+        font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
+        color: black;
+        text-align: justify;
+    }
+
+    #proyectos h2
+    {
+        font-size: calc(1.3rem + 1.3vw);
+    }
+
+    #proyectos .resource
+    {
+        width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
+        font-size: calc(0.6rem + 0.6vw);
+    }
+
+    footer i 
+    {
+        font-size: calc(1rem + 1vw);
+    }
+
+    footer .name 
+    {
+        padding-bottom: 10px;
+        font-size: calc(0.7rem + 0.6vw);
     }
 }
 
-@media only screen and (width <= 360px)
+@media only screen and (width = 360px)
 {
     #inicio .brief-description
     {
@@ -475,6 +528,24 @@ footer .name
         padding-top: 14vh;
         vertical-align: middle;
         margin-bottom: 2.5vh;
+    }
+
+    #proyectos .background p
+    {
+        font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
+        color: black;
+        text-align: justify;
+    }
+
+    #proyectos h2
+    {
+        font-size: calc(1.3rem + 1.3vw);
+    }
+
+    #proyectos .resource
+    {
+        width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
+        font-size: calc(0.6rem + 0.6vw);
     }
 }
 
@@ -489,6 +560,35 @@ footer .name
         vertical-align: middle;
         margin-bottom: 2vh;
     }
+
+    #proyectos h2
+    {
+        font-size: calc(1.3rem + 1.3vw);
+    }
+
+    #proyectos .background p
+    {
+        font-size: calc(0.6rem + 0.55vw + 0.08vh);/*13px*/
+        color: black;
+        text-align: justify;
+    }
+
+    #proyectos .resource
+    {
+        width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
+        font-size: calc(0.5rem + 0.5vw);
+    }
+    
+    #inicio .btn-mas
+    {
+        width: 90px;
+        font-size: 11px;
+    }
+
+    #inicio h1
+    {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (width = 390px)
@@ -501,6 +601,24 @@ footer .name
         padding-top: 14vh;
         vertical-align: middle;
         margin-bottom: 2.5vh;
+    }
+
+    #proyectos .background p
+    {
+        font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
+        color: black;
+        text-align: justify;
+    }
+
+    #proyectos h2
+    {
+        font-size: calc(1.3rem + 1.3vw);
+    }
+
+    #proyectos .resource
+    {
+        width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
+        font-size: calc(0.6rem + 0.6vw);
     }
 }
 
@@ -515,9 +633,104 @@ footer .name
         vertical-align: middle;
         margin-bottom: 26vh;
     }
+
     #inicio h1
     {
         font-size: 22px;
+    }
+
+    #proyectos .background p
+    {
+        font-size: calc(0.7rem + 0.55vw + 0.09vh);/*13px*/
+        color: black;
+        text-align: justify;
+    }
+
+    #proyectos h2
+    {
+        font-size: calc(1.4rem + 1.4vw);
+    }
+
+    #proyectos .resource
+    {
+        width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
+        font-size: calc(0.6rem + 0.6vw);
+    }
+}
+
+@media only screen and (width = 540px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 20vh;
+        height: 40vh;
+        padding: 0px;
+        padding-top: 14vh;
+        vertical-align: middle;
+        margin-bottom: 22vh;
+    }
+
+    #inicio h1
+    {
+        font-size: calc(0.8rem + 0.8vw);
+    }
+
+    #inicio .btn-mas
+    {
+        width: calc(3.5rem + 3.4vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
+    }
+
+    #proyectos .background p
+    {
+        font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
+        color: black;
+        text-align: justify;
+    }
+
+    #proyectos h2
+    {
+        font-size: calc(1.3rem + 1.3vw);
+    }
+
+    #proyectos .resource
+    {
+        width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
+        font-size: calc(0.6rem + 0.6vw);
+    }
+}
+
+@media only screen and (width = 653px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 16vh;
+        height: 11vh;
+        padding: 0px;
+        padding-bottom: 6vh;
+        vertical-align: middle;
+        margin-bottom: 28vh;
+    }
+    #inicio .btn-mas
+    {
+        width: 88px;
+        font-size: 11px;
+    }
+
+    #inicio h1
+    {
+        font-size: 18px;
+    }
+
+    footer i 
+    {
+        font-size: calc(1rem + 1vw);
+    }
+
+    footer .name 
+    {
+        padding-bottom: 10px;
+        font-size: calc(0.7rem + 0.6vw);
     }
 }
 
@@ -532,9 +745,50 @@ footer .name
         vertical-align: middle;
         margin-bottom: 20vh;
     }
+
+    #inicio h1
+    {
+        font-size: 21px;
+    }
+
+    #inicio .btn-mas
+    {
+        width: 90px;
+        font-size: 11px;
+    }
+
+    footer i 
+    {
+        font-size: calc(1rem + 1vw);
+    }
+
+    footer .name 
+    {
+        padding-bottom: 10px;
+        font-size: calc(0.7rem + 0.6vw);
+    }
+}
+
+@media only screen and (width = 720px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 20vh;
+        height: 35vh;
+        padding: 0px;
+        padding-top: 10vh;
+        margin-bottom: 20vh;
+    }
+
     #inicio h1
     {
         font-size: 22px;
+    }
+
+    #inicio .btn-mas
+    {
+        width: calc(3.5rem + 3.4vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
     }
 }
 
@@ -548,20 +802,22 @@ footer .name
         padding-top: 4.5vh;
         margin-bottom: 22.6vh;
     }
+
     #inicio h1
     {
         font-size: 22px;
     }
 
-    #proyectos .col-md-6 .resource
+    #proyectos .resource
     {
-        border-radius: 20px;
-        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
-        text-align: center;
-        transition: 0.5s;
-        background-size: 200% auto;
-        width: 20vh;
-        font-size: 3vh;
+        width: calc(2.2rem + 2.2vw + 2.2vh); /*12vh*/
+        font-size: calc(0.5rem + 0.4vw);
+    }
+
+    #inicio .btn-mas
+    {
+        width: calc(3.5rem + 3.4vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
     }
 }
 
@@ -575,20 +831,16 @@ footer .name
         padding-top: 4vh;
         margin-bottom: 22.2vh;
     }
+
     #inicio h1
     {
         font-size: 22px;
     }
 
-    #proyectos .col-md-6 .resource
+    #inicio .btn-mas
     {
-        border-radius: 20px;
-        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
-        text-align: center;
-        transition: 0.5s;
-        background-size: 200% auto;
-        width: 20vh;
-        font-size: 3vh;
+        width: calc(3.5rem + 3.4vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
     }
 }
 
@@ -602,47 +854,16 @@ footer .name
         padding-top: 4.5vh;
         margin-bottom: 22.8vh;
     }
+
     #inicio h1
     {
-        font-size: 18px;
+        font-size: calc(0.8rem + 0.8vw);
     }
 
-    #proyectos .col-md-6 .resource
+    #inicio .btn-mas
     {
-        border-radius: 20px;
-        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
-        text-align: center;
-        transition: 0.5s;
-        background-size: 200% auto;
-        width: 20vh;
-        font-size: 3vh;
-    }
-}
-
-@media only screen and (width = 932px)
-{
-    #inicio .brief-description
-    {
-        margin-top: 23.2vh;
-        height: 23.2vh;
-        padding: 0px;
-        padding-top: 4.5vh;
-        margin-bottom: 23.2vh;
-    }
-    #inicio h1
-    {
-        font-size: 18px;
-    }
-
-    #proyectos .col-md-6 .resource
-    {
-        border-radius: 20px;
-        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
-        text-align: center;
-        transition: 0.5s;
-        background-size: 200% auto;
-        width: 20vh;
-        font-size: 3vh;
+        width: calc(3.5rem + 3.4vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
     }
 }
 
@@ -657,9 +878,28 @@ footer .name
         vertical-align: middle;
         margin-bottom: 2.5vh;
     }
+
     #inicio h1
     {
-        font-size: 24px;
+        font-size: calc(0.8rem + 0.8vw);font-size: 24px;
+    }
+
+    #proyectos .background p
+    {
+        font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
+        color: black;
+        text-align: justify;
+    }
+
+    #proyectos h2
+    {
+        font-size: calc(1.3rem + 1.3vw);
+    }
+
+    #proyectos .resource
+    {
+        width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
+        font-size: calc(0.6rem + 0.6vw);
     }
 }
 
@@ -674,8 +914,235 @@ footer .name
         vertical-align: middle;
         margin-bottom: 2vh;
     }
+
+    #inicio h1
+    {
+        font-size: calc(0.8rem + 0.8vw);
+    }
+
+    #inicio .btn-mas
+    {
+        width: calc(3.6rem + 3.5vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
+    }
+}
+
+@media only screen and (width = 768px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 22.2vh;
+        height: 43vh;
+        padding: 0px;
+        padding-top: 18vh;
+        vertical-align: middle;
+        margin-bottom: 22vh;
+    }
+
+    #inicio h1
+    {
+        font-size: calc(0.8rem + 0.8vw);
+    }
+}
+
+@media only screen and (width = 840px)
+{
+    #inicio .brief-description .col-md-12
+    {
+        margin-top: 25.2vh;
+        height: 43vh;
+        padding: 0px;
+        padding-top: 12vh;
+        vertical-align: middle;
+        margin-bottom: 22vh;
+    }
+
+    #inicio h1
+    {
+        font-size: calc(0.8rem + 0.8vw);
+    }
+}
+
+@media only screen and (width = 853px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 22.2vh;
+        height: 43vh;
+        padding: 0px;
+        padding-top: 12vh;
+        vertical-align: middle;
+        margin-bottom: 18vh;
+    }
+
+    #inicio h1
+    {
+        font-size: calc(0.8rem + 0.8vw);
+    }
+}
+
+@media only screen and (width = 912px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 20vh;
+        height: 50vh;
+        padding: 0px;
+        padding-top: 22vh;
+        margin-bottom: 20vh;
+    }
+
+    #inicio h1
+    {
+        font-size: calc(0.8rem + 0.8vw);
+    }
+}
+
+@media only screen and (width = 914px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 16vh;
+        height: 34vh;
+        padding: 0px;
+        padding-top: 10vh;
+        margin-bottom: 18vh;
+    }
+
+    #inicio h1
+    {
+        font-size: calc(0.8rem + 0.8vw);
+    }
+
+    #inicio .btn-mas
+    {
+        width: calc(3.5rem + 3.4vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
+    }
+}
+
+@media only screen and (width = 932px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 23.2vh;
+        height: 23.2vh;
+        padding: 0px;
+        padding-top: 4.5vh;
+        margin-bottom: 23.2vh;
+    }
+
+    #inicio h1
+    {
+        font-size: 22px;
+    }
+
+    #inicio .btn-mas
+    {
+        width: calc(3.5rem + 3.4vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
+    }
+}
+
+@media only screen and (width = 1024px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 22vh;
+        height: 38vh;
+        padding: 0px;
+        padding-top: 10vh;
+        margin-bottom: 18vh;
+    }
+
+    #inicio h1
+    {
+        font-size: calc(0.8rem + 0.8vw);
+    }
+
+    #inicio .btn-mas
+    {
+        width: calc(3.5rem + 3.4vw + 2.6vh);
+        font-size: calc(0.5rem + 0.5vw);
+    }
+}
+
+@media only screen and (width = 820px)
+{
+    #inicio .col-12
+    {
+        margin-top: 22vh;
+        height: 52vh;
+        padding: 0px;
+        padding-top: 18vh;
+        vertical-align: middle;
+        margin-bottom: 22vh;
+    }
+
     #inicio h1
     {
         font-size: 24px;
+    }
+}
+
+@media only screen and (width = 1280px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 20vh;
+        height: 50vh;
+        padding: 0px;
+        padding-top: 15vh;
+        vertical-align: middle;
+        margin-bottom: 12vh;
+    }
+
+    #inicio h1
+    {
+        font-size: 24px;
+    }
+
+    #proyectos .background p
+    {
+        font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
+        color: black;
+        text-align: justify;
+    }
+
+    #proyectos h2
+    {
+        font-size: calc(1.3rem + 1.3vw);
+    }
+
+    #proyectos .resource
+    {
+        width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
+        font-size: calc(0.6rem + 0.6vw);
+    }
+}
+
+@media only screen and (width = 1368px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 18vh;
+        height: 64vh;
+        padding: 0px;
+        padding-top: 18vh;
+        vertical-align: middle;
+        margin-bottom: 2.9vh;
+    }
+}
+
+@media only screen and (width > 1537px)
+{
+    #inicio .brief-description
+    {
+        margin-top: 18vh;
+        height: 64vh;
+        padding: 0px;
+        padding-top: 18vh;
+        vertical-align: middle;
+        margin-bottom: 2.9vh;
     }
 }
