@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Hoja de Vida</title>
 </head>
+
 <body id="portafolio">
     <header class="container">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse" id="navbarCollapse">
@@ -50,31 +53,148 @@
                     </div>
                 </div>
                 <div class="row pt-3">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
+                        <img src="img/Projects/portfolio.png" alt="" class="img-fluid">
+                        <div class="background pb-3">
+                            <h2 class="text-center">Efficient Frontier</h2>
+                            <div class="px-2">
+                                <p>Proyecto desarrollado en Python con el objetivo de presentar el grafico de frontera eficiente, que representa la maximización de utilidades sujeto a su riesgo, por ende, permite identificar el punto optimo en el que con una combinación de activos se obtiene una mayor rentabilidad en base al riesgo asumido en la operación.</p>
+                                <p>Código fuente:
+                                    <a title="In Progress">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </p>
+                                <div class="row">
+                                    <div class="text-center">
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Python</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Pandas</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Matplotlib</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Jupyter</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-1">
-                        <img src="img/proyecto-integrador.png" alt="" class="img-fluid">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/Website/Inicio.png" class="d-block w-100 img-fluid" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Website/Portafolio.png" class="d-block w-100 img-fluid" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Website/Hoja de Vida.png" class="d-block w-100 img-fluid" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                         <div class="background pb-3">
-                            <h2 class="text-center bg-danger">AMP Exporter</h2>
+                            <h2 class="text-center">Mi Página Web</h2>
                             <div class="px-2">
-                                <p>Proyecto que automatiza la creación de tablas y la ejecución de consultas en Snowflake a partir de instrucciones ingresadas dentro de un diccionario en Jupyter Notebook. El programa escribe las consultas, genera reportes en Excel, dispone de funcionalidades adicionales para ejecutar tareas especificas.</p>
-                                <p>Código fuente: 
-                                    <a href="https://github.com/camiloroa112/portfolio" target="_blank" title="GitHub">
+                                <p>Presentación del código fuente y el repositorio público en GitHub donde se encuentran
+                                    los archivos utilizados en el desarrollo de la presente página web. La página
+                                    dispone de diseño responsivo con Bootstrap, dinamismo en la aparición de las
+                                    etiquetas al cargar la página utilizando Ajax y estilos con CSS3.</p>
+                                <p>Código fuente:
+                                    <a href="https://github.com/camiloroa112/website" target="_blank" title="Website">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
                                 </p>
                                 <div class="row">
                                     <div class="text-center">
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">HTML</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Bootstrap</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">CSS3</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">PHP</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
+                        <video playsinline class="img-fluid" autoplay loop muted>
+                            <source src="img/Projects/amp-exporter.mp4" type="video/mp4">
+                        </video>
+                        <div class="background pb-3">
+                            <h2 class="text-center">AMP Exporter</h2>
+                            <div class="px-2">
+                                <p>Proyecto que automatiza la creación de tablas y la ejecución de consultas en
+                                    Snowflake a partir de instrucciones ingresadas dentro de un diccionario en Jupyter
+                                    Notebook. El programa escribe las consultas, genera reportes en Excel, dispone de
+                                    funcionalidades adicionales para ejecutar tareas especificas.</p>
+                                <p>Código fuente:
+                                    <a title="Not Available">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </p>
+                                <div class="row">
+                                    <div class="text-center">
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Python</a>
                                             </div>
                                         </div>
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Snowflake</a>
                                             </div>
                                         </div>
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Jupyter</a>
                                             </div>
                                         </div>
@@ -84,30 +204,144 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
-                        <img src="img/proyecto-integrador.png" alt="" class="img-fluid">
+                        <img src="img/Projects/portfolio.png" alt="" class="img-fluid">
                         <div class="background pb-3">
-                            <h2 class="text-center bg-danger">AMP Exporter</h2>
+                            <h2 class="text-center">Portfolio</h2>
                             <div class="px-2">
-                                <p>Proyecto que automatiza la creación de tablas y la ejecución de consultas en Snowflake a partir de instrucciones ingresadas dentro de un diccionario en Jupyter Notebook. El programa escribe las consultas, genera reportes en Excel, dispone de funcionalidades adicionales para ejecutar tareas especificas.</p>
-                                <p>Código fuente: 
-                                    <a href="https://github.com/camiloroa112/portfolio" target="_blank" title="GitHub">
+                                <p>Ejercicio propuesto por la academia DePC Suite, con el objetivo de poner en práctica los conocimientos adquiridos en herramientas como: HTML5, CSS3 y Bootstrap para replicar una página web teniendo en cuenta sus estilos, diseño responsivo, separación de los elementos por columnas y la semantica de las etiquetas.</p>
+                                <p>Código fuente:
+                                    <a href="https://github.com/camiloroa112/portfolio"  title="GitHub">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
                                 </p>
                                 <div class="row">
                                     <div class="text-center">
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Python</a>
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">HTML</a>
                                             </div>
                                         </div>
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Bootstrap</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">CSS3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                            data-bs-interval="1800">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/Dashboard/Demo 1.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dashboard/Demo 2.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dashboard/Digital Ranker.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dashboard/Interests.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dashboard/Location.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dashboard/Mapping & DMA.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dashboard/Personicx.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dashboard/Psychographics.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dashboard/TV Program Ranker.png" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="background pb-3">
+                            <h2 class="text-center">HVA Dashboard</h2>
+                            <div class="px-2">
+                                <p>Proyecto que automatiza la generación de reportes en Excel a partir de la ejecución
+                                    de consultas en Snowflake desde Jupyter Notebook, siendo importados a Tableau. El
+                                    Dashboard presenta información de alto valor sobre la demografía, intereses,
+                                    ubicación, y otros perfiladores de una audiencia.</p>
+                                <p>Código fuente:
+                                    <a title="Not Available">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </p>
+                                <div class="row">
+                                    <div class="text-center">
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Jupyter</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Snowflake</a>
                                             </div>
                                         </div>
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Tableau</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
+                        <img src="img/Projects/snowflake-upload.png" alt="" class="img-fluid">
+                        <div class="background pb-3">
+                            <h2 class="text-center">Upload Snowflake</h2>
+                            <div class="px-2">
+                                <p>Script desarrollado en Python, cuya finalidad consiste en subir diferentes archivos
+                                    tipo Excel como tablas en Snowflake. El programa elimina caractéres especiales en
+                                    los encabezados, ajusta los tipos de datos en cada columna a tipo SQL, garantizando
+                                    su carga exitosa en una base de datos especifica.</p>
+                                <p>Código fuente:
+                                    <a href="https://github.com/camiloroa112/upload-snowflake/tree/main" target="_blank"
+                                        title="GitHub">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </p>
+                                <div class="row">
+                                    <div class="text-center">
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Python</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Snowflake</a>
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 d-inline-block">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Jupyter</a>
                                             </div>
                                         </div>
@@ -117,30 +351,39 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
-                        <img src="img/proyecto-integrador.png" alt="" class="img-fluid">
+                        <video playsinline class="img-fluid d-block w-100" autoplay loop muted>
+                            <source src="img/Projects/email-reply-send.mp4" type="video/mp4">
+                        </video>
                         <div class="background pb-3">
-                            <h2 class="text-center bg-danger">AMP Exporter</h2>
+                            <h2 class="text-center">Email Reply - Send</h2>
                             <div class="px-2">
-                                <p>Proyecto que automatiza la creación de tablas y la ejecución de consultas en Snowflake a partir de instrucciones ingresadas dentro de un diccionario en Jupyter Notebook. El programa escribe las consultas, genera reportes en Excel, dispone de funcionalidades adicionales para ejecutar tareas especificas.</p>
-                                <p>Código fuente: 
-                                    <a href="https://github.com/camiloroa112/portfolio" target="_blank" title="GitHub">
+                                <p>Script desarrollado en Python, que dentro de sus funciones esta el envio correos electrónicos de
+                                    forma masiva con un texto configurado predefinidamente en HTML a través de Outlook. Los
+                                    destinatarios son indicados en un archivo en Excel y posee también la opción de
+                                    respuesta de un correo preservando su formato.</p>
+                                <p>Código fuente:
+                                    <a href="https://github.com/camiloroa112/email-send-reply" target="_blank"
+                                        title="GitHub">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
                                 </p>
                                 <div class="row">
                                     <div class="text-center">
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Python</a>
                                             </div>
                                         </div>
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Snowflake</a>
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Outlook</a>
                                             </div>
                                         </div>
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Jupyter</a>
                                             </div>
                                         </div>
@@ -150,31 +393,32 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
-                        <img src="img/proyecto-integrador.png" alt="" class="img-fluid">
+                        <img src="img/Projects/arl-fill-2.png" alt="" class="img-fluid">
                         <div class="background pb-3">
-                            <h2 class="text-center bg-danger">AMP Exporter</h2>
+                            <h2 class="text-center">ARL Fill Form</h2>
                             <div class="px-2">
-                                <p>Proyecto que automatiza la creación de tablas y la ejecución de consultas en Snowflake a partir de instrucciones ingresadas dentro de un diccionario en Jupyter Notebook. El programa escribe las consultas, genera reportes en Excel, dispone de funcionalidades adicionales para ejecutar tareas especificas.</p>
-                                <p>Código fuente: 
-                                    <a href="https://github.com/camiloroa112/portfolio" target="_blank" title="GitHub">
+                                <p>Script desarrollado en Python junto con la libreria Selenium, su función principal
+                                    radica en automatizar el completado un formulario de seguridad laboral solicitado por el gobierno en
+                                    una página web, posteriormente el programa ingresa y completa un formulario adicional
+                                    en Sharepoint requerido por la empresa.</p>
+                                <p>Código fuente:
+                                    <a href="https://github.com/camiloroa112/arl-form-fill" target="_blank"
+                                        title="GitHub">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
                                 </p>
                                 <div class="row">
                                     <div class="text-center">
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Python</a>
                                             </div>
                                         </div>
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Snowflake</a>
-                                            </div>
-                                        </div>
-                                        <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Jupyter</a>
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Selenium</a>
                                             </div>
                                         </div>
                                     </div>
@@ -183,64 +427,29 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
-                        <img src="img/proyecto-integrador.png" alt="" class="img-fluid">
+                        <img src="img/Projects/excel-cleanser.png" alt="" class="img-fluid">
                         <div class="background pb-3">
-                            <h2 class="text-center bg-danger">AMP Exporter</h2>
+                            <h2 class="text-center">Excel Cleanser</h2>
                             <div class="px-2">
-                                <p>Proyecto que automatiza la creación de tablas y la ejecución de consultas en Snowflake a partir de instrucciones ingresadas dentro de un diccionario en Jupyter Notebook. El programa escribe las consultas, genera reportes en Excel, dispone de funcionalidades adicionales para ejecutar tareas especificas.</p>
-                                <p>Código fuente: 
-                                    <a href="https://github.com/camiloroa112/portfolio" target="_blank" title="GitHub">
+                                <p>Script desarrollado en Python junto con la libreria Pandas, elaborado con el objetivo de realizar procesos de limpieza, orden y consolidación de diferentes reportes en Excel descargados de SAP. Dispone un serie de inputs que brindan guía al usuario sobre la instrucción deseada y del estado del proceso.</p>
+                                <p>Código fuente:
+                                    <a href="https://github.com/camiloroa112/excel-cleanser/tree/main" target="_blank"
+                                        title="GitHub">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
                                 </p>
                                 <div class="row">
                                     <div class="text-center">
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
                                                 <a href="">Python</a>
                                             </div>
                                         </div>
                                         <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Snowflake</a>
-                                            </div>
-                                        </div>
-                                        <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Jupyter</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
-                        <img src="img/proyecto-integrador.png" alt="" class="img-fluid">
-                        <div class="background pb-3">
-                            <h2 class="text-center bg-danger">AMP Exporter</h2>
-                            <div class="px-2">
-                                <p>Proyecto que automatiza la creación de tablas y la ejecución de consultas en Snowflake a partir de instrucciones ingresadas dentro de un diccionario en Jupyter Notebook. El programa escribe las consultas, genera reportes en Excel, dispone de funcionalidades adicionales para ejecutar tareas especificas.</p>
-                                <p>Código fuente: 
-                                    <a href="https://github.com/camiloroa112/portfolio" target="_blank" title="GitHub">
-                                        <i class="fa-brands fa-github"></i>
-                                    </a>
-                                </p>
-                                <div class="row">
-                                    <div class="text-center">
-                                        <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Python</a>
-                                            </div>
-                                        </div>
-                                        <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Snowflake</a>
-                                            </div>
-                                        </div>
-                                        <div class="pb-2 d-inline-block">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
-                                                <a href="">Jupyter</a>
+                                            <div
+                                                class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 resource">
+                                                <a href="">Pandas</a>
                                             </div>
                                         </div>
                                     </div>
@@ -274,8 +483,13 @@
             </li>
         </ul>
     </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
