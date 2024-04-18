@@ -1,5 +1,6 @@
+<?php $website = "menu.php";?>
 <!DOCTYPE html>
-<html lang="es" class="h-100">
+<html lang="en" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +25,7 @@
                 <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link px-4 active" href="menu.php">Menu</a>
+                            <a class="nav-link px-4 <?php echo $website == "menu.php" ? "active": "";?>" href="menu.php">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-4" href="about-me.php">About me</a>

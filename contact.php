@@ -4,7 +4,9 @@
     ini_set("SMTP", "camiloroa112@gmail.com");
     ini_set("smtp_port", "587"); // Adjust the port number as needed
     error_reporting(E_ALL);
-
+    
+    $website = "contact.php";
+    
     if($_POST && isset($_POST["submit"]))
     {
         if(isset($_POST['txtName']))
@@ -80,7 +82,7 @@
                             <a class="nav-link px-4" href="curriculum.php">Curriculum</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 active" href="contact.php">Contact</a>
+                            <a class="nav-link px-4 <?php echo $website == "contact.php" ? "active": "";?>" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>

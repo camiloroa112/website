@@ -1,6 +1,6 @@
+<?php $website = "portfolio.php";?>
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
                             <a class="nav-link px-4" href="about-me.php">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 active" href="portfolio.php">Portfolio</a>
+                            <a class="nav-link px-4 <?php echo $website == "portfolio.php" ? "active": "";?>" href="portfolio.php">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-4" href="curriculum.php">Curriculum</a>
