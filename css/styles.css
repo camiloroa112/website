@@ -10,7 +10,7 @@
     font-family: "Bai Jamjuree", sans-serif;
 }
 
-#hoja-de-vida 
+#curriculum 
 {
     background-image: url('../img/Backgrounds/futuristic.jpg');
     background-position: center;
@@ -18,24 +18,32 @@
 
 }
 
-#inicio
+#menu
 {
-    background-image: url('../img//Backgrounds/futuristic.jpg');
+    background-image: url('../img/Backgrounds/futuristic.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
 }
 
-#portafolio
+#portfolio
 {
-    background-image: url('../img//Backgrounds/futuristic.jpg');
+    background-image: url('../img/Backgrounds/futuristic.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#sobre-mi
+#about-me
+{
+    background-image: url('../img/Backgrounds/futuristic.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact
 {
     background-image: url('../img/Backgrounds/futuristic.jpg');
     background-position: bottom;
@@ -53,13 +61,18 @@
     border-bottom: 1px solid #800080;
 }
 
-#proyectos .background, #sobre-mi .background
+#about-me #pii
+{
+    justify-content: space-between;
+}
+
+#projects .background, #about-me .background
 {
     background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
     border-radius: 20px;
 }
 
-#sobre-mi .background2
+#about-me .background2
 {
     border-radius: 20px;
     box-shadow: 0 0 4px #eee;
@@ -67,25 +80,25 @@
     /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
 }
 
-#proyectos .background p
+#projects .background p
 {
     font-size: calc(0.45rem + 0.45vw + 0.08vh);/*13px*/
     color: black;
     text-align: justify;
 }
 
-#proyectos .intro
+#projects .intro
 {
     color: white;
 }
 
-#portafolio #proyectos img, #portafolio .carousel-inner, #portafolio video
+#portfolio #projects img, #portfolio .carousel-inner, #portfolio video
 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-#proyectos h2
+#projects h2
 {
     background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.8% );
     text-align: center;
@@ -95,12 +108,12 @@
     background-size: 200% auto;
 }
 
-#proyectos h2:hover
+#projects h2:hover
 {
     background-position: right center;
 }
 
-#proyectos .resource
+#projects .resource
 {
     border-radius: 20px;
     background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
@@ -111,12 +124,12 @@
     font-size: calc(0.37rem + 0.37vw);
 }
 
-#proyectos .resource:hover
+#projects .resource:hover
 {
     background-position: right center;
 }
 
-#proyectos .resource a
+#projects .resource a
 {
     text-decoration: none;
     color: white;
@@ -134,7 +147,7 @@
     border-radius: 30px;
 }
 
-#inicio .brief-description
+#menu .brief-description
 {
     margin-top: 24vh;
     height: 40vh;
@@ -144,40 +157,35 @@
     margin-bottom: 16.5vh;
 }
 
-#inicio h1
+#menu h1
 {
     font-size: calc(1rem + 1vh);
     color: darkcyan;
 }
 
-#proyectos h1
+#projects h1, #about-me h1, #contact h1
 {
     color: darkcyan;
 }
 
-#sobre-mi h1
-{
-    color: darkcyan;
-}
-
-#sobre-mi h6
+#about-me h6
 {
     color: white;
 }
 
-#inicio h4
+#menu h4
 {
     font-size: clamp(18px, 2vw, 16px);
     font-family: "Aldrich", sans-serif;
     color:darkcyan;
 }
 
-#inicio h2
+#menu h2
 {
     font-family: "Aldrich", sans-serif;
 }
 
-#inicio .description
+#menu .description
 {
     margin-top: 30vh;
     font-size: clamp(17px, 1.6vw, 16px);
@@ -188,12 +196,12 @@
     border-radius: 22px;
 }
 
-#inicio .hello
+#menu .hello
 {
     width: 90%;
 }
 
-#inicio .brief-description img
+#menu .brief-description img
 {
     width: clamp(40px, 8vw, 80px);
 }
@@ -439,7 +447,7 @@ footer .name
     font-size: 15px;
 }
 
-#inicio .btn-mas, #sobre-mi .btn-mas
+#menu .btn-more, #about-me .btn-more, #contact .btn-more
 {
     width: 128px;
     background-image: linear-gradient(to right, rgba(4,0,4,1) 0%, rgba(100,43,115,1) 51%, rgba(100,43,115,1) 100%);
@@ -452,7 +460,7 @@ footer .name
     border-color: darkcyan;
 }
 
-#inicio .btn-mas:hover, #sobre-mi .btn-mas:hover
+#menu .btn-more:hover, #about-me .btn-more:hover, #contact .btn-more:hover
 {
     background-position: right center;
     color: #fff;
@@ -460,12 +468,12 @@ footer .name
   }
  
 
-#inicio #bienvenida p
+#menu #welcome p
 {
     width: 75%;
 }
 
-#sobre-mi .biografia
+#about-me .biografia
 {
     background-image: linear-gradient(to right, rgba(4,0,4,1) 0%, rgba(100,43,115,1) 51%, rgba(100,43,115,1) 100%);
     border-radius: 20px;
@@ -475,45 +483,45 @@ footer .name
     padding: 15px
 }
 
-#sobre-mi h2
+#about-me h2, #contact label
 {
     color: #aab6c1ff;
 }
 
-#sobre-mi i
+#about-me i
 {
     color: #aab6c1ff;
 }
 
-#sobre-mi p b
+#about-me p b
 {
     color: #aab6c1ff;
 }
 
-#sobre-mi .container p
+#about-me .container p
 {
     color: #6f8393FF;
     text-align: justify;
 }
 
-#sobre-mi #bio p
+#about-me #bio p
 {
     color: white;
 }
 
-#sobre-mi ul li
+#about-me ul li
 {
     list-style-type: none;
 }
 
-#sobre-mi .icons
+#about-me .icons
 {
     font-size: 30px;
 }
 
 @media only screen and (width = 280px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 50vh;
@@ -523,18 +531,18 @@ footer .name
         margin-bottom: 10vh;
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: 88px;
         font-size: 11px;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 18px;
     }
 
-    #proyectos .background p
+    #projects .background p
     {
         font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
         color: black;
@@ -553,12 +561,12 @@ footer .name
         width: 54.5%;/*200px*/
     }
 
-    #proyectos h2
+    #projects h2
     {
         font-size: calc(1.3rem + 1.3vw);
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.2rem + 2.2vw + 2.2vh); /*12vh*/
         font-size: calc(0.6rem + 0.6vw);
@@ -600,7 +608,7 @@ footer .name
 
 @media only screen and (width = 360px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 60vh;
@@ -610,19 +618,19 @@ footer .name
         margin-bottom: 2.5vh;
     }
 
-    #proyectos .background p
+    #projects .background p
     {
         font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
         color: black;
         text-align: justify;
     }
 
-    #proyectos h2
+    #projects h2
     {
         font-size: calc(1.3rem + 1.3vw);
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
         font-size: calc(0.6rem + 0.6vw);
@@ -643,7 +651,7 @@ footer .name
 
 @media only screen and (width = 375px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 58.5vh;
@@ -653,7 +661,7 @@ footer .name
         margin-bottom: 2vh;
     }
 
-    #proyectos h2
+    #projects h2
     {
         font-size: calc(1.3rem + 1.3vw);
     }
@@ -668,26 +676,26 @@ footer .name
         margin-left: calc(1.2rem + 1.2vh);
     }
 
-    #proyectos .background p
+    #projects .background p
     {
         font-size: calc(0.6rem + 0.55vw + 0.08vh);/*13px*/
         color: black;
         text-align: justify;
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
         font-size: calc(0.5rem + 0.5vw);
     }
     
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: 90px;
         font-size: 11px;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 20px;
     }
@@ -707,7 +715,7 @@ footer .name
 
 @media only screen and (width = 390px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 62vh;
@@ -717,19 +725,19 @@ footer .name
         margin-bottom: 2.5vh;
     }
 
-    #proyectos .background p
+    #projects .background p
     {
         font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
         color: black;
         text-align: justify;
     }
 
-    #proyectos h2
+    #projects h2
     {
         font-size: calc(1.3rem + 1.3vw);
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
         font-size: calc(0.6rem + 0.6vw);
@@ -760,7 +768,7 @@ footer .name
 
 @media only screen and (width >= 412px) and (width <= 414px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 26.2vh;
         height: 33.5vh;
@@ -770,7 +778,7 @@ footer .name
         margin-bottom: 26vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 22px;
     }
@@ -785,19 +793,19 @@ footer .name
         margin-left: calc(1rem + 1vh);
     }
 
-    #proyectos .background p
+    #projects .background p
     {
         font-size: calc(0.7rem + 0.55vw + 0.09vh);/*13px*/
         color: black;
         text-align: justify;
     }
 
-    #proyectos h2
+    #projects h2
     {
         font-size: calc(1.4rem + 1.4vw);
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
         font-size: calc(0.6rem + 0.6vw);
@@ -818,7 +826,7 @@ footer .name
 
 @media only screen and (width = 540px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 40vh;
@@ -828,30 +836,30 @@ footer .name
         margin-bottom: 22vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
     }
 
-    #proyectos .background p
+    #projects .background p
     {
         font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
         color: black;
         text-align: justify;
     }
 
-    #proyectos h2
+    #projects h2
     {
         font-size: calc(1.3rem + 1.3vw);
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
         font-size: calc(0.6rem + 0.6vw);
@@ -889,7 +897,7 @@ footer .name
 
 @media only screen and (min-width: 652px) and (max-width: 653px)
 {
-    #inicio .col-md-12
+    #menu .col-md-12
     {
         margin-top: 10vh;
         height: 10vh;
@@ -899,13 +907,13 @@ footer .name
         margin-bottom: 10vh;
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: 88px;
         font-size: 11px;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 18px;
     }
@@ -946,7 +954,7 @@ footer .name
 
 @media only screen and (width = 667px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 25.5vh;
@@ -956,12 +964,12 @@ footer .name
         margin-bottom: 20vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 21px;
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: 90px;
         font-size: 11px;
@@ -993,7 +1001,7 @@ footer .name
 
 @media only screen and (width = 720px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 35vh;
@@ -1002,12 +1010,12 @@ footer .name
         margin-bottom: 20vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 22px;
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1028,7 +1036,7 @@ footer .name
 
 @media only screen and (width = 896px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 22.6vh;
         height: 23.2vh;
@@ -1037,18 +1045,18 @@ footer .name
         margin-bottom: 22.6vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 22px;
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.2rem + 2.2vw + 2.2vh); /*12vh*/
         font-size: calc(0.5rem + 0.4vw);
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1079,7 +1087,7 @@ footer .name
 
 @media only screen and (width = 844px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 22.2vh;
         height: 22vh;
@@ -1088,12 +1096,12 @@ footer .name
         margin-bottom: 22.2vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 22px;
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1124,7 +1132,7 @@ footer .name
 
 @media only screen and (width = 915px)
 {
-    #inicio .col-md-12
+    #menu .col-md-12
     {
         margin-top: 22.8vh;
         height: 22.8vh;
@@ -1133,12 +1141,12 @@ footer .name
         margin-bottom: 22.8vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1169,7 +1177,7 @@ footer .name
 
 @media only screen and (width = 430px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 22.5vh;
         height: 61vh;
@@ -1184,24 +1192,24 @@ footer .name
         padding-left: calc(1.5vw + 1.5em);
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);font-size: 24px;
     }
 
-    #proyectos .background p
+    #projects .background p
     {
         font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
         color: black;
         text-align: justify;
     }
 
-    #proyectos h2
+    #projects h2
     {
         font-size: calc(1.3rem + 1.3vw);
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
         font-size: calc(0.6rem + 0.6vw);
@@ -1210,7 +1218,7 @@ footer .name
 
 @media only screen and (width = 740px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 12vh;
         height: 50vh;
@@ -1220,12 +1228,12 @@ footer .name
         margin-bottom: 2vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.6rem + 3.5vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1256,7 +1264,7 @@ footer .name
 
 @media only screen and (width = 768px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 22.2vh;
         height: 43vh;
@@ -1266,12 +1274,12 @@ footer .name
         margin-bottom: 22vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1302,7 +1310,7 @@ footer .name
 
 @media only screen and (width = 840px)
 {
-    #inicio .brief-description .col-md-12
+    #menu .brief-description .col-md-12
     {
         margin-top: 25.2vh;
         height: 43vh;
@@ -1312,7 +1320,7 @@ footer .name
         margin-bottom: 22vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);
     }
@@ -1320,7 +1328,7 @@ footer .name
 
 @media only screen and (width = 853px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 22.2vh;
         height: 43vh;
@@ -1330,7 +1338,7 @@ footer .name
         margin-bottom: 18vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);
     }
@@ -1338,7 +1346,7 @@ footer .name
 
 @media only screen and (width = 912px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 50vh;
@@ -1347,7 +1355,7 @@ footer .name
         margin-bottom: 20vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(1.1rem + 1.1vw);
     }
@@ -1377,7 +1385,7 @@ footer .name
 
 @media only screen and (width = 914px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 16vh;
         height: 34vh;
@@ -1386,12 +1394,12 @@ footer .name
         margin-bottom: 18vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1400,7 +1408,7 @@ footer .name
 
 @media only screen and (width = 932px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 23.2vh;
         height: 23.2vh;
@@ -1409,12 +1417,12 @@ footer .name
         margin-bottom: 23.2vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 22px;
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1445,7 +1453,7 @@ footer .name
 
 @media only screen and (width = 1024px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 22vh;
         height: 38vh;
@@ -1454,12 +1462,12 @@ footer .name
         margin-bottom: 18vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: calc(0.8rem + 0.8vw);
     }
 
-    #inicio .btn-mas
+    #menu .btn-more
     {
         width: calc(3.5rem + 3.4vw + 2.6vh);
         font-size: calc(0.5rem + 0.5vw);
@@ -1468,7 +1476,7 @@ footer .name
 
 @media only screen and (width = 1280px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 20vh;
         height: 50vh;
@@ -1478,24 +1486,24 @@ footer .name
         margin-bottom: 12vh;
     }
 
-    #inicio h1
+    #menu h1
     {
         font-size: 24px;
     }
 
-    #proyectos .background p
+    #projects .background p
     {
         font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
         color: black;
         text-align: justify;
     }
 
-    #proyectos h2
+    #projects h2
     {
         font-size: calc(1.3rem + 1.3vw);
     }
 
-    #proyectos .resource
+    #projects .resource
     {
         width: calc(2.8rem + 2.8vw + 2.8vh); /*12vh*/
         font-size: calc(0.6rem + 0.6vw);
@@ -1504,7 +1512,7 @@ footer .name
 
 @media only screen and (width = 1368px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 18vh;
         height: 64vh;
@@ -1539,7 +1547,7 @@ footer .name
 
 @media only screen and (width > 1537px)
 {
-    #inicio .brief-description
+    #menu .brief-description
     {
         margin-top: 18vh;
         height: 64vh;

@@ -12,31 +12,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Hoja de Vida</title>
+    <title>Portfolio</title>
 </head>
-
-<body id="portafolio">
+<body id="portfolio">
     <header class="container">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="inicio.html">Inicio</a>
+                            <a class="nav-link px-4" href="menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link px-4" href="about-me.html">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 active" href="portafolio.html">Portafolio</a>
+                            <a class="nav-link px-4 active" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="hoja-de-vida.html">Hoja de Vida</a>
+                            <a class="nav-link px-4" href="curriculum.html">Curriculum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -44,12 +46,12 @@
         </nav>
     </header>
     <main class="pb-5">
-        <section id="proyectos">
+        <section id="projects">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="pt-3">Proyectos</h1>
-                        <p class="pt-3 intro">Los siguientes son algunos de los trabajos que he realizado:</p>
+                        <h1 class="mt-3">Project</h1>
+                        <p class="pt-3 intro">These are some projects I have developed:</p>
                     </div>
                 </div>
                 <div class="row pt-3">
@@ -58,8 +60,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Efficient Frontier</h2>
                             <div class="px-2">
-                                <p>Proyecto desarrollado en Python que muestra el grafico de frontera eficiente, que representa la maximización de utilidades sujeto a su riesgo, permitiendo identificar el punto optimo en el que con una combinación de activos se obtiene una mayor rentabilidad en base al riesgo asumido en la operación.</p>
-                                <p>Código fuente:
+                                <p>Python project showcasing the efficient frontier graph, representing profit maximization subject to risk. It allows identifying the optimal point where a combination of assets yields higher returns based on the assumed risk in the operation.</p>
+                                <p>Source code:
                                     <a title="In Progress">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
@@ -122,11 +124,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Mi Página Web</h2>
                             <div class="px-2">
-                                <p>Presentación del código fuente y el repositorio público en GitHub donde se encuentran
-                                    los archivos utilizados en el desarrollo de la presente página web. La página
-                                    dispone de diseño responsivo con Bootstrap, dinamismo en la aparición de las
-                                    etiquetas al cargar la página utilizando Ajax y estilos con CSS3.</p>
-                                <p>Código fuente:
+                                <p>Presentation of the source code and the public repository on GitHub containing the files used in the development of the current website. The page features responsive design with Bootstrap, dynamic loading of tags using Ajax upon page load, and styling with CSS3.</p>
+                                <p>Source code:
                                     <a href="https://github.com/camiloroa112/website" target="_blank" title="Website">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
@@ -169,11 +168,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">AMP Exporter</h2>
                             <div class="px-2">
-                                <p>Proyecto que automatiza la creación de tablas y la ejecución de consultas en
-                                    Snowflake a partir de instrucciones ingresadas dentro de un diccionario en Jupyter
-                                    Notebook. El programa escribe las consultas, genera reportes en Excel, dispone de
-                                    funcionalidades adicionales para ejecutar tareas especificas.</p>
-                                <p>Código fuente:
+                                <p>Project that automates table creation and query execution in Snowflake based on instructions entered within a dictionary in Jupyter Notebook. The program writes queries, generates Excel reports, and offers additional functionalities to perform specific tasks.</p>
+                                <p>Source code:
                                     <a title="Not Available">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
@@ -208,8 +204,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Portfolio</h2>
                             <div class="px-2">
-                                <p>Ejercicio propuesto por la academia DePC Suite, poniendo en práctica los conocimientos adquiridos en herramientas como: HTML5, CSS3 y Bootstrap replicando una página web teniendo en cuenta sus estilos, diseño responsivo, separación de los elementos por columnas y la semantica de las etiquetas.</p>
-                                <p>Código fuente:
+                                <p>Exercise proposed by the DePC Suite academy, putting into practice the knowledge acquired in tools such as HTML5, CSS3, and Bootstrap by replicating a webpage considering its styles, responsive design, separation of elements by columns, and semantic use of tags.</p>
+                                <p>Source code:
                                     <a href="https://github.com/camiloroa112/portfolio"  title="GitHub">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
@@ -276,11 +272,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">HVA Dashboard</h2>
                             <div class="px-2">
-                                <p>Proyecto que automatiza la generación de reportes en Excel a partir de la ejecución
-                                    de consultas en Snowflake desde Jupyter Notebook, siendo importados a Tableau. El
-                                    Dashboard presenta información de alto valor sobre la demografía, intereses,
-                                    ubicación, y otros perfiladores de una audiencia.</p>
-                                <p>Código fuente:
+                                <p>Project that automates Excel report generation by executing Snowflake queries from Jupyter Notebook, being imported into Tableau. The Dashboard presents high-value insights about audience demographics, interests, location, and other profiling aspects.</p>
+                                <p>Source code:
                                     <a title="Not Available">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
@@ -315,11 +308,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Upload Snowflake</h2>
                             <div class="px-2">
-                                <p>Script desarrollado en Python, cuya finalidad consiste en subir diferentes archivos
-                                    tipo Excel como tablas en Snowflake. El programa elimina caractéres especiales en
-                                    los encabezados, ajusta los tipos de datos en cada columna a tipo SQL, garantizando
-                                    su carga exitosa en una base de datos especifica.</p>
-                                <p>Código fuente:
+                                <p>Python script designed to upload various Excel files as tables into Snowflake. The program removes special characters from headers, adjusts data types in each column to SQL type, ensuring successful loading into a specific database.</p>
+                                <p>Source code:
                                     <a href="https://github.com/camiloroa112/upload-snowflake/tree/main" target="_blank"
                                         title="GitHub">
                                         <i class="fa-brands fa-github"></i>
@@ -357,11 +347,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Email Reply - Send</h2>
                             <div class="px-2">
-                                <p>Script desarrollado en Python, que dentro de sus funciones esta el envio correos electrónicos de
-                                    forma masiva con un texto configurado predefinidamente en HTML a través de Outlook. Los
-                                    destinatarios son indicados en un archivo en Excel y posee también la opción de
-                                    respuesta de un correo preservando su formato.</p>
-                                <p>Código fuente:
+                                <p>Python script developed to send bulk emails with a preconfigured HTML format and autofile attachment via Outlook. Recipients are specified through an Excel file, with an additional option for preserving the format of email replies.</p>
+                                <p>Source code:
                                     <a href="https://github.com/camiloroa112/email-send-reply" target="_blank"
                                         title="GitHub">
                                         <i class="fa-brands fa-github"></i>
@@ -397,11 +384,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">ARL Fill Form</h2>
                             <div class="px-2">
-                                <p>Script desarrollado en Python junto con la libreria Selenium, su función principal
-                                    radica en automatizar el completado un formulario de seguridad laboral solicitado por el gobierno en
-                                    una página web, posteriormente el programa ingresa y completa un formulario adicional
-                                    en Sharepoint requerido por la empresa.</p>
-                                <p>Código fuente:
+                                <p>Python script primarily designed to autocomplete a safety workplace form mandated by the government on a website. Subsequently, the program accesses and fills out an additional form on SharePoint as required by the company.</p>
+                                <p>Source code:
                                     <a href="https://github.com/camiloroa112/arl-form-fill" target="_blank"
                                         title="GitHub">
                                         <i class="fa-brands fa-github"></i>
@@ -431,8 +415,8 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Excel Cleanser</h2>
                             <div class="px-2">
-                                <p>Script desarrollado en Python junto con la libreria Pandas, elaborado con el objetivo de realizar procesos de limpieza, orden y consolidación de diferentes reportes en Excel descargados de SAP. Dispone un serie de inputs que brindan guía al usuario sobre la instrucción deseada (consolidación o transformación) y del estado del proceso.</p>
-                                <p>Código fuente:
+                                <p>Python script designed to perform cleaning, sorting, and consolidation processes on various Excel reports downloaded from SAP. It contains different inputs to guide the user on the desired instruction (consolidation or transformation) and the status of the process.</p>
+                                <p>Source code:
                                     <a href="https://github.com/camiloroa112/excel-cleanser/tree/main" target="_blank"
                                         title="GitHub">
                                         <i class="fa-brands fa-github"></i>
@@ -467,7 +451,7 @@
         </div>
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li class="ms-3">
-                <a href="https://github.com/camiloroa112/portfolio" target="_blank" title="GitHub">
+                <a href="https://github.com/camiloroa112/" target="_blank" title="GitHub">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </li>
