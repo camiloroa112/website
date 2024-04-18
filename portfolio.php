@@ -26,19 +26,19 @@
                 <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="menu.html">Menu</a>
+                            <a class="nav-link px-4" href="menu.php">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="about-me.html">About me</a>
+                            <a class="nav-link px-4" href="about-me.php">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 active" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link px-4 active" href="portfolio.php">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="curriculum.html">Curriculum</a>
+                            <a class="nav-link px-4" href="curriculum.php">Curriculum</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="contact.html">Contact</a>
+                            <a class="nav-link px-4" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>

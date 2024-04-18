@@ -25,19 +25,19 @@
                 <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="menu.html">Menu</a>
+                            <a class="nav-link px-4" href="menu.php">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 active" href="about-me.html">About me</a>
+                            <a class="nav-link px-4 active" href="about-me.php">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link px-4" href="portfolio.php">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="curriculum.html">Curriculum</a>
+                            <a class="nav-link px-4" href="curriculum.php">Curriculum</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="contact.html">Contact</a>
+                            <a class="nav-link px-4" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -85,7 +85,7 @@
                             building, data visualization, providing added value to assigned tasks, in process automation
                             and optimization.</p>
                         <div class="pt-2 pb-3">
-                            <a href="img/Work/CV Camilo Roa.pdf" target="_blank" class="btn btn-mas">Download CV</a>
+                            <a href="img/Work/CV Camilo Roa.pdf" target="_blank" class="btn btn-more">Download CV</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-3 col-xl-3 background2 mt-3">

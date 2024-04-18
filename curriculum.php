@@ -24,19 +24,19 @@
                 <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="menu.html">Menu</a>
+                            <a class="nav-link px-4" href="menu.php">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="about-me.html">About me</a>
+                            <a class="nav-link px-4" href="about-me.php">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link px-4" href="portfolio.php">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 active" href="curriculum.html">Curriculum</a>
+                            <a class="nav-link px-4 active" href="curriculum.php">Curriculum</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="contact.html">Contact</a>
+                            <a class="nav-link px-4" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -120,7 +120,7 @@
                             <img src="img/Education/UMNG.png" class="img-fluid p-3">
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 d-inline-block align-middle education-desc">
-                            <h4 class="pt-2">Industrial Engineer</h4>
+                            <h4 class="pt-2">Industrial Engineering</h4>
                             <h5>Universidad Militar Nueva Granada</h5>
                             <h5>2013 - 2020</h5>
                             <p class="text-wrap">https://www.umng.edu.co/</p>

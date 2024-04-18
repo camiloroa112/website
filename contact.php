@@ -1,3 +1,44 @@
+<?php
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    ini_set("SMTP", "camiloroa112@gmail.com");
+    ini_set("smtp_port", "587"); // Adjust the port number as needed
+    error_reporting(E_ALL);
+
+    if($_POST && isset($_POST["submit"]))
+    {
+        if(isset($_POST['txtName']))
+        {
+            $name = $_POST['txtName'];
+        }
+
+        if(isset($_POST['txtSubject']))
+        {
+            $subject_email = $_POST['txtSubject'];
+        }
+
+        if(isset($_POST['txtEmail']))
+        {
+            $email = $_POST['txtEmail'];  
+        }
+
+        if(isset($_POST['txtTextArea']))
+        {
+            $text = $_POST['txtTextArea'];
+        }        
+
+        if($name == "" || $subject_email == "" || $email == "" || $text == "")
+        {
+            $message_error = '<div class="alert alert-danger fade show mt-3" role="alert" style="margin-top: 2px; margin-bottom: 2px;">There are one or more fields missing.</div>';  
+        }
+
+        else
+        {
+            mail($to = 'camiloroa112@gmail.com', $subject = $subject_email, $message = $text, $headers = "From: $email".'\r\n' . "You got an email sent by: $name");
+            $message_success = '<div class="alert alert-success fade show mt-3" role="alert" style="margin-top: 2px; margin-bottom: 2px;">Form submitted successfully.</div>';
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 <head>
@@ -27,19 +68,19 @@
                 <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="menu.html">Menu</a>
+                            <a class="nav-link px-4" href="menu.php">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="about-me.html">About me</a>
+                            <a class="nav-link px-4" href="about-me.php">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link px-4" href="portfolio.php">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="curriculum.html">Curriculum</a>
+                            <a class="nav-link px-4" href="curriculum.php">Curriculum</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 active" href="contact.html">Contact</a>
+                            <a class="nav-link px-4 active" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -49,16 +90,28 @@
     <main class="container h-100">
         <div class="row">
             <h1 class="mt-3">Contact me</h1>
-            <form method="POST">
+            <form method="POST" action="contact.php">
                 <div class="form-group">
-                    <label for="exampleInputEmail1" class="mt-3 mb-3">Name</label>
-                    <input type="txtName" class="form-control" id="txtName" placeholder="Name" required>
-                    <label for="exampleInputEmail1" class="mt-3 mb-3">Email</label>
-                    <input type="txtEmail" class="form-control" id="txtEmail" placeholder="Email" required>
-                    <label for="exampleFormControlTextarea1" class="mt-3 mb-3">Message</label>
-                    <textarea class="form-control" id="txtTextArea" rows="5"  placeholder="Message" required></textarea>
+                    <label for="exampleInputEmail1" class="mt-2 mb-2">Name</label>
+                    <input type="txtName" class="form-control" id="txtName" name="txtName" placeholder="Name">
+                    <label for="exampleInputEmail1" class="mt-2 mb-2">Subject</label>
+                    <input type="txtSubject" class="form-control" id="txtSubject" name="txtSubject" placeholder="Subject">
+                    <label for="exampleInputEmail1" class="mt-2 mb-2">Email</label>
+                    <input type="txtEmail" class="form-control" id="txtEmail" name="txtEmail" placeholder="Email">
+                    <label for="exampleFormControlTextarea1" class="mt-2 mb-2">Message</label>
+                    <textarea class="form-control" id="txtTextArea" name="txtTextArea" rows="3" placeholder="Message"></textarea>
                 </div>
-                <button type="submit" name="send" value="submit" class="btn btn-primary mt-4 mb-3 btn-more">Submit</button>
+                <?php 
+                    if(isset($message_error))
+                    {
+                        echo $message_error;
+                    }
+                    elseif(isset($message_success))
+                    {
+                        echo $message_success;
+                    }
+                ?>
+                <button type="submit" name="submit" id="submit" value="POST" class="btn btn-more mt-3">Submit</button>
             </form>
         </div>
     </main>

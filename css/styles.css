@@ -13,34 +13,34 @@
 #curriculum 
 {
     background-image: url('../img/Backgrounds/futuristic.jpg');
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
 #menu
 {
     background-image: url('../img/Backgrounds/futuristic.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #portfolio
 {
     background-image: url('../img/Backgrounds/futuristic.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #about-me
 {
     background-image: url('../img/Backgrounds/futuristic.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #contact
@@ -432,7 +432,20 @@ footer i:hover
     width: 20%;
 }
 
-footer i 
+#projects i
+{
+    font-size: 15px;
+    color: #aab6c1ff;
+    transition: all 500ms ease;
+}
+
+#projects i:hover 
+{
+    color: darkcyan;
+    transition: all 500ms ease;
+}
+
+footer i
 {
     font-size: 25px;
     color: #aab6c1ff;
@@ -473,16 +486,6 @@ footer .name
     width: 75%;
 }
 
-#about-me .biografia
-{
-    background-image: linear-gradient(to right, rgba(4,0,4,1) 0%, rgba(100,43,115,1) 51%, rgba(100,43,115,1) 100%);
-    border-radius: 20px;
-    color: white;
-    transition: 0.5s;
-    text-align: justify;
-    padding: 15px
-}
-
 #about-me h2, #contact label
 {
     color: #aab6c1ff;
@@ -498,7 +501,7 @@ footer .name
     color: #aab6c1ff;
 }
 
-#about-me .container p
+#about-me #pii .container p
 {
     color: #6f8393FF;
     text-align: justify;
