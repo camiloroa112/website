@@ -149,7 +149,7 @@
 
 #menu h1
 {
-    font-size: calc(1rem + 1vh);
+    font-size: calc(0.8rem + 0.8vh + 0.35vw);
     color: darkcyan;
 }
 
