@@ -1,4 +1,4 @@
-<?php $website = "menu.php";?>
+<?php $website = "index.php";?>
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 <head>
@@ -25,7 +25,7 @@
                 <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link px-4 <?php echo $website == "menu.php" ? "active": "";?>" href="menu.php">Menu</a>
+                            <a class="nav-link px-4 <?php echo $website == "index.php" ? "active": "";?>" href="index.php">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-4" href="about-me.php">About me</a>

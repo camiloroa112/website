@@ -26,7 +26,7 @@
                 <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="menu.php">Menu</a>
+                            <a class="nav-link px-4" href="index.php">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-4 <?php echo $website == "about-me.php" ? "active": "";?>" href="about-me.php">About me</a>
