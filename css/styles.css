@@ -149,7 +149,7 @@
 
 #menu h1
 {
-    font-size: calc(0.7rem + 0.8vh + 0.25vw);
+    font-size: calc(0.8rem + 0.8vw);
     color: darkcyan;
 }
 
@@ -521,7 +521,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 18px;
+        font-size: calc(0.8rem + 0.8vw);
     }
 
     #projects .background p
@@ -679,7 +679,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 20px;
+        font-size: calc(0.8rem + 0.8vw);
     }
 
     #profile-abilities .software img 
@@ -762,7 +762,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 22px;
+        font-size: calc(0.8rem + 0.8vw);
     }
 
     .education
