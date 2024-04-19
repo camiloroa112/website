@@ -149,7 +149,7 @@
 
 #menu h1
 {
-    font-size: calc(0.8rem + 0.8vw);
+    font-size: calc(0.7rem + 0.8vh + 0.25vw);
     color: darkcyan;
 }
 
@@ -521,7 +521,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #projects .background p
@@ -679,7 +679,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #profile-abilities .software img 
@@ -762,7 +762,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     .education
@@ -820,7 +820,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -1125,7 +1125,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -1176,7 +1176,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);font-size: 24px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);font-size: 24px;
     }
 
     #projects .background p
@@ -1212,7 +1212,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -1258,7 +1258,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -1304,7 +1304,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 }
 
@@ -1322,7 +1322,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 }
 
@@ -1378,7 +1378,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -1446,7 +1446,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.8rem + 0.8vw);
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
