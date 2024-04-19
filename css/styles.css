@@ -510,7 +510,6 @@ footer .name
         padding: 0px;
         padding-top: 14vh;
         vertical-align: middle;
-        /* margin-bottom: 10vh; */
     }
 
     #menu .btn-more
@@ -526,7 +525,7 @@ footer .name
 
     #projects .background p
     {
-        font-size: calc(0.65rem + 0.55vw + 0.08vh);/*13px*/
+        font-size: calc(0.65rem + 0.55vw + 0.08vh);
         color: black;
         text-align: justify;
     }
@@ -897,7 +896,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 18px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     footer i 
@@ -948,7 +947,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 21px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -994,7 +993,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 22px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -1029,7 +1028,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 22px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #projects .resource
@@ -1080,7 +1079,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 22px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -1176,7 +1175,7 @@ footer .name
 
     #menu h1
     {
-        font-size: calc(0.7rem + 0.8vh + 0.25vw);font-size: 24px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #projects .background p
@@ -1401,7 +1400,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 22px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #menu .btn-more
@@ -1470,7 +1469,7 @@ footer .name
 
     #menu h1
     {
-        font-size: 24px;
+        font-size: calc(0.7rem + 0.8vh + 0.25vw);
     }
 
     #projects .background p
