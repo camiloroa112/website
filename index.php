@@ -45,12 +45,16 @@
         </nav>
     </header>
     <main class="container h-100">
-        <section id="welcome">
-            <div class="row">
-                <div class="col-md-12 col-xl-12 col-xxl-12 brief-description">
-                    <h1 class="pb-2 p-3 text-center m-auto p-auto d-block hello">Welcome to my website</h1>
-                    <div class="text-center pt-2">
-                        <a href="about-me.php" class="btn btn-more">Learn more</a>
+        <section id="welcome" class="h-100">
+            <div class="row h-100">
+                <div class="d-flex align-items-center justify-content-center h-100">
+                    <div class="d-flex flex-column">
+                        <div class="my-auto">
+                            <h1 class="pb-2 p-3 text-center m-auto p-auto d-block hello">Welcome to my website</h1>
+                            <div class="text-center pt-2">
+                                <a href="about-me.php" class="btn btn-more">Learn more</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

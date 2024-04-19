@@ -147,16 +147,6 @@
     border-radius: 30px;
 }
 
-#menu .brief-description
-{
-    margin-top: 24vh;
-    height: 40vh;
-    padding: 0px;
-    padding-top: 14vh;
-    vertical-align: middle;
-    margin-bottom: 16.5vh;
-}
-
 #menu h1
 {
     font-size: calc(1rem + 1vh);
@@ -194,11 +184,6 @@
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90%);
     width: 80%;
     border-radius: 22px;
-}
-
-#menu .hello
-{
-    width: 90%;
 }
 
 #menu .brief-description img
@@ -478,12 +463,6 @@ footer .name
     background-position: right center;
     color: #fff;
     text-decoration: none;
-  }
- 
-
-#menu #welcome p
-{
-    width: 75%;
 }
 
 #about-me h2, #contact label
@@ -531,7 +510,7 @@ footer .name
         padding: 0px;
         padding-top: 14vh;
         vertical-align: middle;
-        margin-bottom: 10vh;
+        /* margin-bottom: 10vh; */
     }
 
     #menu .btn-more
@@ -618,7 +597,7 @@ footer .name
         padding: 0px;
         padding-top: 14vh;
         vertical-align: middle;
-        margin-bottom: 2.5vh;
+        /* margin-bottom: 2.5vh; */
     }
 
     #projects .background p
@@ -661,7 +640,7 @@ footer .name
         padding: 0px;
         padding-top: 14vh;
         vertical-align: middle;
-        margin-bottom: 2vh;
+        /* margin-bottom: 2vh; */
     }
 
     #projects h2
@@ -725,7 +704,7 @@ footer .name
         padding: 0px;
         padding-top: 14vh;
         vertical-align: middle;
-        margin-bottom: 2.5vh;
+        /* margin-bottom: 2.5vh; */
     }
 
     #projects .background p
@@ -778,7 +757,7 @@ footer .name
         padding: 0px;
         padding-top: 12vh;
         vertical-align: middle;
-        margin-bottom: 26vh;
+        /* margin-bottom: 26vh; */
     }
 
     #menu h1
@@ -836,7 +815,7 @@ footer .name
         padding: 0px;
         padding-top: 14vh;
         vertical-align: middle;
-        margin-bottom: 22vh;
+        /* margin-bottom: 22vh; */
     }
 
     #menu h1
@@ -964,7 +943,7 @@ footer .name
         padding: 0px;
         padding-top: 5.6vh;
         vertical-align: middle;
-        margin-bottom: 20vh;
+        margin-bottom: 10vh;
     }
 
     #menu h1
