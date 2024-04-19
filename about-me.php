@@ -80,7 +80,7 @@
         <section id="pii">
             <div class="container">
                 <div class="row p-auto">
-                    <div class="col-sm-12 col-lg-3 col-xl-3 background mt-3">
+                    <div class="col-sm-12 col-lg-6 col-xl-3 background mt-3">
                         <h2 class="pt-3 pb-3">About me</h2>
                         <p class="pt-3">Experienced Python developer and data analyst skilled in insightful report
                             building, data visualization, providing added value to assigned tasks, in process automation
@@ -89,13 +89,13 @@
                             <a href="img/Work/CV Camilo Roa.pdf" target="_blank" class="btn btn-more">Download CV</a>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-3 col-xl-3 background2 mt-3">
+                    <div class="col-sm-12 col-lg-6 col-xl-3 background2 mt-3">
                         <h2 class="pt-3 pb-3">Personal Info</h2>
                         <p class="pt-3"><b>Birthdate: </b>November 12th, 1995</p>
                         <p><b>Email: </b>camiloroa112@gmail.com</p>
                         <p><b>Phone: </b>(+57) 301-472-5061</p>
                     </div>
-                    <div class="col-sm-12 col-lg-3 col-xl-3 background mt-3">
+                    <div class="col-sm-12 col-lg-6 col-xl-3 background mt-3">
                         <h2 class="pt-3 pb-3">My Expertise</h2>
                         <div class="col-12 pt-3">
                             <div class="col-1 d-inline-block">
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-3 col-xl-3 background2 mt-3">
+                    <div class="col-sm-12 col-lg-6 col-xl-3 background2 mt-3">
                         <h2 class="pt-3 pb-3">Soft Skills</h2>
                         <div class="col-12 pt-3">
                             <div class="col-1 d-inline-block">
