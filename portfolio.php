@@ -384,7 +384,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">ARL Fill Form</h2>
                             <div class="px-2">
-                                <p>Python script primarily designed to autocomplete a safety workplace form mandated by the government on a website. Subsequently, the program accesses and fills out an additional form on SharePoint as required by the company.</p>
+                                <p>Python script primarily designed to autocomplete a safety workplace form mandated by the government on a website. Subsequently, the program accesses and fills out an additional ARL completion form on SharePoint as required by the company.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/arl-form-fill" target="_blank"
                                         title="GitHub">
