@@ -36,8 +36,10 @@ if ($_POST && isset($_POST["submit"])) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
@@ -49,9 +51,9 @@ if ($_POST && isset($_POST["submit"])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Contact</title>
 </head>
-<body id="contact" class="d-flex flex-column min-vh-100">
+<body id="contact" class="d-flex flex-column h-100">
     <header class="container">
-    <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -78,18 +80,18 @@ if ($_POST && isset($_POST["submit"])) {
             </div>
         </nav>
     </header>
-    <main class="container flex-grow-1">
+    <main class="container h-100">
         <div class="row">
             <h1 class="mt-3">Contact me</h1>
-            <form method="POST" action="contact.php">
+            <form method="POST" action="contact.php" class="h-100">
                 <div class="form-group">
-                    <label for="txtName" class="mt-2 mb-2">Name</label>
-                    <input type="text" class="form-control" id="txtName" name="txtName" placeholder="Name">
-                    <label for="txtSubject" class="mt-2 mb-2">Subject</label>
-                    <input type="text" class="form-control" id="txtSubject" name="txtSubject" placeholder="Subject">
-                    <label for="txtEmail" class="mt-2 mb-2">Email</label>
-                    <input type="email" class="form-control" id="txtEmail" name="txtEmail" placeholder="Email">
-                    <label for="txtTextArea" class="mt-2 mb-2">Message</label>
+                    <label for="exampleInputEmail1" class="mt-2 mb-2">Name</label>
+                    <input type="txtName" class="form-control" id="txtName" name="txtName" placeholder="Name">
+                    <label for="exampleInputEmail1" class="mt-2 mb-2">Subject</label>
+                    <input type="txtSubject" class="form-control" id="txtSubject" name="txtSubject" placeholder="Subject">
+                    <label for="exampleInputEmail1" class="mt-2 mb-2">Email</label>
+                    <input type="txtEmail" class="form-control" id="txtEmail" name="txtEmail" placeholder="Email">
+                    <label for="exampleFormControlTextarea1" class="mt-2 mb-2">Message</label>
                     <textarea class="form-control" id="txtTextArea" name="txtTextArea" rows="3" placeholder="Message"></textarea>
                 </div>
                 <?php
@@ -99,34 +101,34 @@ if ($_POST && isset($_POST["submit"])) {
                     echo $message_success;
                 }
                 ?>
-                <button type="submit" name="submit" id="submit" value="POST" class="btn btn-more mt-3">Submit</button>
+                <button type="submit" name="submit" id="submit" value="POST" class="btn btn-more">Submit</button>
             </form>
         </div>
     </main>
-    <footer class="container d-flex justify-content-between align-items-center border-top">
-        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex pt-4">
-            <p class="name">© Camilo Roa</p>
-        </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3">
-                <a href="https://github.com/camiloroa112" target="_blank" title="GitHub">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </li>
-            <li class="ms-3">
-                <a href="https://www.linkedin.com/in/camilo-r-78a245160/" target="_blank" title="LinkedIn">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-            </li>
-            <li class="ms-3">
-                <a href="https://www.instagram.com/camilo.roa1/" target="_blank" title="Instagram">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </li>
-        </ul>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
 </body>
+<footer class="container d-flex flex-wrap justify-content-between align-items-center mt-auto border-top">
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex pt-4">
+        <p class="name">© Camilo Roa</p>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+            <a href="https://github.com/camiloroa112" target="_blank" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </li>
+        <li class="ms-3">
+            <a href="https://www.linkedin.com/in/camilo-r-78a245160/" target="_blank" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="ms-3">
+            <a href="https://www.instagram.com/camilo.roa1/" target="_blank" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="app.js"></script>
 </html>

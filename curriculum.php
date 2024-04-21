@@ -64,8 +64,8 @@
                         <div class="col-xs-12 col-sm-12 d-block text-center">
                             <a href="mailto:camiloroa112@gmail.com" target="_blank"><i
                                     class="bi bi-envelope"></i></a>camiloroa112@gmail.com
-                            <h4 class="text-center pt-4">Business Intelligence | Desarrollador Full-Stack & Data
-                                Scientist en Formación</h4>
+                            <h4 class="text-center pt-4">Business Intelligence | Full-Stack Developer & Data
+                                Scientist in Formation</h4>
                         </div>
                     </div>
                     <div class="mt-2 contact d-none d-md-block text-center">

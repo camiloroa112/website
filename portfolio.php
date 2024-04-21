@@ -60,7 +60,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Efficient Frontier</h2>
                             <div class="px-2">
-                                <p>Python project showcasing the efficient frontier graph, representing profit maximization subject to risk. It allows identifying the optimal point where a combination of assets yields higher returns based on the assumed risk in the operation.</p>
+                                <p class="project-desc">Python project showcasing the efficient frontier graph, representing profit maximization subject to risk. It allows identifying the optimal point where a combination of assets yields higher returns based on the assumed risk in the operation.</p>
                                 <p>Source code:
                                     <a title="In Progress">
                                         <i class="fa-brands fa-github"></i>
@@ -122,9 +122,9 @@
                             </button>
                         </div>
                         <div class="background pb-3">
-                            <h2 class="text-center">Mi Página Web</h2>
+                            <h2 class="text-center">My Website</h2>
                             <div class="px-2">
-                                <p>Presentation of the source code and the public repository on GitHub containing the files used in the development of the current website. The page features responsive design with Bootstrap, dynamic loading of tags using Ajax upon page load, and styling with CSS3.</p>
+                                <p class="project-desc">Presentation of the source code and the public repository on GitHub containing the files used in the development of the current website. The page features responsive design with Bootstrap, dynamic loading of tags using Ajax upon page load, and styling with CSS3.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/website" target="_blank" title="Website">
                                         <i class="fa-brands fa-github"></i>
@@ -168,7 +168,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">AMP Exporter</h2>
                             <div class="px-2">
-                                <p>Project that automates table creation and query execution in Snowflake based on instructions entered within a dictionary in Jupyter Notebook. The program writes queries, generates Excel reports, and offers additional functionalities to perform specific tasks.</p>
+                                <p class="project-desc">Project that automates table creation and query execution in Snowflake based on instructions entered within a dictionary in Jupyter Notebook. The program writes queries, generates Excel reports, and offers additional functionalities to perform specific tasks.</p>
                                 <p>Source code:
                                     <a title="Not Available">
                                         <i class="fa-brands fa-github"></i>
@@ -204,7 +204,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Portfolio</h2>
                             <div class="px-2">
-                                <p>Exercise proposed by the DePC Suite academy, putting into practice the knowledge acquired in tools such as HTML5, CSS3, and Bootstrap by replicating a webpage considering its styles, responsive design, separation of elements by columns, and semantic use of tags.</p>
+                                <p class="project-desc">Exercise proposed by the DePC Suite academy, putting into practice the knowledge acquired in tools such as HTML5, CSS3, and Bootstrap by replicating a webpage considering its styles, responsive design, separation of elements by columns, and semantic use of tags.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/portfolio"  title="GitHub">
                                         <i class="fa-brands fa-github"></i>
@@ -272,7 +272,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">HVA Dashboard</h2>
                             <div class="px-2">
-                                <p>Project that automates Excel report generation by executing Snowflake queries from Jupyter Notebook, being imported into Tableau. The Dashboard presents high-value insights about audience demographics, interests, location, and other profiling aspects.</p>
+                                <p class="project-desc">Project that automates Excel report generation by executing Snowflake queries from Jupyter Notebook, being imported into Tableau. The Dashboard presents high-value insights about audience demographics, interests, location, and other profiling aspects.</p>
                                 <p>Source code:
                                     <a title="Not Available">
                                         <i class="fa-brands fa-github"></i>
@@ -308,7 +308,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Upload Snowflake</h2>
                             <div class="px-2">
-                                <p>Python script designed to upload various Excel files as tables into Snowflake. The program removes special characters from headers, adjusts data types in each column to SQL type, ensuring successful loading into a specific database.</p>
+                                <p class="project-desc">Python script designed to upload various Excel files as tables into Snowflake. The program removes special characters from headers, adjusts data types in each column to SQL type, ensuring successful loading into a specific database.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/upload-snowflake/tree/main" target="_blank"
                                         title="GitHub">
@@ -347,7 +347,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Email Reply - Send</h2>
                             <div class="px-2">
-                                <p>Python script developed to send bulk emails with a preconfigured HTML format and autofile attachment via Outlook. Recipients are specified through an Excel file, with an additional option for preserving the format of email replies.</p>
+                                <p class="project-desc">Python script developed to send bulk emails with a preconfigured HTML format and autofile attachment via Outlook. Recipients are specified through an Excel file, with an additional option for preserving the format of email replies.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/email-send-reply" target="_blank"
                                         title="GitHub">
@@ -384,7 +384,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">ARL Fill Form</h2>
                             <div class="px-2">
-                                <p>Python script primarily designed to autocomplete a safety workplace form mandated by the government on a website. Subsequently, the program accesses and fills out an additional ARL completion form on SharePoint as required by the company.</p>
+                                <p class="project-desc">Python script primarily designed to autocomplete a safety workplace form mandated by the government on a website. Subsequently, the program accesses and fills out an additional ARL completion form on SharePoint as required by the company.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/arl-form-fill" target="_blank"
                                         title="GitHub">
@@ -415,7 +415,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Excel Cleanser</h2>
                             <div class="px-2">
-                                <p>Python script designed to perform cleaning, sorting, and consolidation processes on various Excel reports downloaded from SAP. It contains different inputs to guide the user on the desired instruction (consolidation or transformation) and the status of the process.</p>
+                                <p class="project-desc">Python script designed to perform cleaning, sorting, and consolidation processes on various Excel reports downloaded from SAP. It contains different inputs to guide the user on the desired instruction (consolidation or transformation) and the status of the process.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/excel-cleanser/tree/main" target="_blank"
                                         title="GitHub">
