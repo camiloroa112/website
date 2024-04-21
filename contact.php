@@ -1,4 +1,16 @@
 <?php
+
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 ini_set("SMTP", "camiloroa112@gmail.com");
@@ -6,6 +18,7 @@ ini_set("smtp_port", "587"); // Adjust the port number as needed
 error_reporting(E_ALL);
 
 $website = "contact.php";
+$password = file_get_contents('phpmaile/file.txt');
 
 if ($_POST && isset($_POST["submit"])) {
     if (isset($_POST['txtName'])) {
@@ -30,7 +43,29 @@ if ($_POST && isset($_POST["submit"])) {
     
     else 
     {
-        mail($to = 'camiloroa112@gmail.com', $subject = $subject_email, $message = $text, $headers = "From: $email" . '\r\n' . "You got an email sent by: $name");
+        $mail = new PHPMailer(true);
+
+        //Server settings
+        $mail->isSMTP();                              //Send using SMTP
+        $mail->Host       = 'smtp.gmail.com';       //Set the SMTP server to send through
+        $mail->SMTPAuth   = true;             //Enable SMTP authentication
+        $mail->Username   = 'camiloroa112@gmail.com';   //SMTP write your email
+        $mail->Password   = $password;      //SMTP password
+        $mail->SMTPSecure = 'ssl';            //Enable implicit SSL encryption
+        $mail->Port       = 465;                                    
+
+        //Recipients
+        $mail->setFrom( $email, $name); // Sender Email and name
+        $mail->addAddress('camiloroa112@gmail.com');     //Add a recipient email  
+        $mail->addReplyTo($email, $name); // reply to sender email
+
+        //Content
+        $mail->isHTML(true);               //Set email format to HTML
+        $mail->Subject = $subject_email;   // email subject headings
+        $mail->Body    = $text; //email message
+
+        // Success sent message alert
+        $mail->send();
         $message_success = '<div class="alert alert-success fade show mt-3" role="alert" style="margin-top: 2px; margin-bottom: 2px;">Form submitted successfully.</div>';
     }
 }
