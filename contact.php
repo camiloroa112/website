@@ -18,7 +18,7 @@ ini_set("smtp_port", "587"); // Adjust the port number as needed
 error_reporting(E_ALL);
 
 $website = "contact.php";
-$password = file_get_contents('phpmaile/file.txt');
+$password = file_get_contents('phpmailer/file.txt');
 
 if ($_POST && isset($_POST["submit"])) {
     if (isset($_POST['txtName'])) {
