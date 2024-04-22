@@ -130,8 +130,8 @@
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    width: calc(1.6rem + 1.6vw + 1.5vh); /*calc(2.3rem + 2vw + 2vh); 12vh*/
-    font-size: calc(0.37rem + 0.37vw);
+    width: calc(1.2rem + 1.2vw + 1.2vh); /*calc(2.3rem + 2vw + 2vh); 12vh*/
+    font-size: calc(0.28rem + 0.28vw);
 }
 
 #projects .resource:hover
