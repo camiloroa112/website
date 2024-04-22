@@ -6,8 +6,8 @@
     <script async src=https://www.googletagmanager.com/gtag/js?id=G-HDWTYWVQV2></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
+        function gtag() 
+        {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
@@ -63,12 +63,13 @@
                 <p class="pt-3 pb-3 text-center"><i>Militia est vita hominis super terrvm</i></p>
                 <div class="row">
                     <div class="col-sm-12 col-lg-6 col-xl-6 background2 p-3 mt-3">
-                        <p>Hello, and thank you for visiting my website. My name is Camilo Roa. I was born on November 12, 1995, in Bogotá, Colombia. Ever since I can remember, I've been drawn to challenges, sports, in a constant pursuit of knowledge and self-learning. My journey led me to pursue a degree in Industrial Engineering at the Universidad Militar Nueva Granada, driven by a desire to contribute by providing innovative solutions to various industries and everyday life. Around four years ago, I discovered my passion for programming, been captivated by the evolution of technology and the opportunities it presents, the high amount of projects to perform, particularly areas such as web development, data analysis, and process automation.
+                        <p>
+                            Hello, and thank you for visiting my website. My name is Camilo Roa. I was born on November 12, 1995, in Bogotá, Colombia. Ever since I can remember, I've been drawn to challenges, sports, in a constant pursuit of knowledge and self-learning. My journey led me to pursue a degree in Industrial Engineering at the Universidad Militar Nueva Granada driven by a desire to contribute at any workplace or real-life situations by providing innovative solutions with an improvement scope. Around four years ago, I discovered my passion for programming been captivated by the evolution of technology, the high demand of opportunities it presents, of projects to develop through the web development, data analysis, and process automation.
                         </p>
                     </div>
                     <div class="col-sm-12 col-lg-6 col-xl-6 background2 p-3 mt-3">
                         <p>
-                            I currently have three and a half years of work experience in the field of programming, primarily focusing on creating scripts for process automation using languages such as Python and Snowflake. Additionally, I specialize in data analysis, report creation and management, and executing database table queries as part of quality processes. I've had the privilege of being involved in and leading projects, where I've learned to manage time effectively, implement action plans, and conduct project follow-up meetings. I pride myself on being someone who can work autonomously or as part of a team, always striving towards collective goals rather than individual achievements in a professional environment.
+                            I currently have three and a half years of work experience in the field of programming, primarily focusing on creating scripts for process automation using languages such as Python and Snowflake. Additionally, I specialize in data analysis, report creation, report management, and executing database table queries as part of quality check process for an in-depth understanding about it. I've had the privilege of being involved in leading projects where I've learned to manage time effectively, to implement action plans, and conduct project follow-up meetings. I pride myself on being someone who can work autonomously or as part of a team, always striving towards collective goals rather than individual achievements in a professional environment.
                         </p>
                     </div>
                     <div class="mt-3 p-3 background2">
