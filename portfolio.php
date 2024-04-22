@@ -14,6 +14,17 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Portfolio</title>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src=https://www.googletagmanager.com/gtag/js?id=G-HDWTYWVQV2></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-HDWTYWVQV2');
+</script>
 <body id="portfolio">
     <header class="container">
         <nav class="navbar navbar-expand-md">

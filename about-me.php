@@ -1,6 +1,7 @@
-<?php $website = "about-me.php";?>
+<?php $website = "about-me.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>About me</title>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src=https://www.googletagmanager.com/gtag/js?id=G-HDWTYWVQV2></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-HDWTYWVQV2');
+</script>
 <body id="about-me">
     <header class="container">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse text-align-center" id="navbarCollapse">
@@ -29,7 +38,7 @@
                             <a class="nav-link px-4" href="index.php">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 <?php echo $website == "about-me.php" ? "active": "";?>" href="about-me.php">About me</a>
+                            <a class="nav-link px-4 <?php echo $website == "about-me.php" ? "active" : ""; ?>" href="about-me.php">About me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-4" href="portfolio.php">Portfolio</a>
@@ -60,18 +69,18 @@
                     </div>
                     <div class="col-sm-12 col-lg-6 col-xl-6 background2 p-3 mt-3">
                         <p>
-                        I currently have three and a half years of work experience in the field of programming, primarily focusing on creating scripts for process automation using languages such as Python and Snowflake. Additionally, I specialize in data analysis, report creation and management, and executing database table queries as part of quality processes. I've had the privilege of being involved in and leading projects, where I've learned to manage time effectively, implement action plans, and conduct project follow-up meetings. I pride myself on being someone who can work autonomously or as part of a team, always striving towards collective goals rather than individual achievements in a professional environment.
+                            I currently have three and a half years of work experience in the field of programming, primarily focusing on creating scripts for process automation using languages such as Python and Snowflake. Additionally, I specialize in data analysis, report creation and management, and executing database table queries as part of quality processes. I've had the privilege of being involved in and leading projects, where I've learned to manage time effectively, implement action plans, and conduct project follow-up meetings. I pride myself on being someone who can work autonomously or as part of a team, always striving towards collective goals rather than individual achievements in a professional environment.
                         </p>
                     </div>
                     <div class="mt-3 p-3 background2">
                         <p>
-                        In my free time, I enjoy spending time with my family and friends. I can fully go through any type of plan, although one of my favorite activities is visiting towns with beautiful landscapes, accompanied by delicious food, and capturing moments through photography. I occasionally play soccer as a goalkeeper, and during my vacations, I take the opportunity to travel.
-                        <br>
-                        <br>
-                        If you are interested in learning more about my profile, do not hesitate to contact me. It would be more than an honor for me to share with you.
-                        <br>
-                        <br>
-                        Once again, thank you for visiting my website
+                            In my free time, I enjoy spending time with my family and friends. I can fully go through any type of plan, although one of my favorite activities is visiting towns with beautiful landscapes, accompanied by delicious food, and capturing moments through photography. I occasionally play soccer as a goalkeeper, and during my vacations, I take the opportunity to travel.
+                            <br>
+                            <br>
+                            If you are interested in learning more about my profile, do not hesitate to contact me. It would be more than an honor for me to share with you.
+                            <br>
+                            <br>
+                            Once again, thank you for visiting my website
                         </p>
                     </div>
                 </div>
@@ -175,12 +184,8 @@
             </li>
         </ul>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 
