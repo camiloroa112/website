@@ -135,7 +135,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">My Website</h2>
                             <div class="px-2">
-                                <p class="project-desc">Presentation of the source code and the public repository on GitHub containing the files used in the development of the current website. The page features responsive design with Bootstrap, dynamic loading of tags using Ajax upon page load, and styling with CSS3.</p>
+                                <p class="project-desc">Presentation of the public repository on GitHub containing the files used in the development of the current website. The page responsiveness was designed with Bootstrap, dynamic loading of elements using Ajax, and styling with CSS3.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/website" target="_blank" title="Website">
                                         <i class="fa-brands fa-github"></i>
@@ -319,7 +319,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Upload Snowflake</h2>
                             <div class="px-2">
-                                <p class="project-desc">Python script designed to upload various Excel files as tables into Snowflake. The program removes special characters from headers, adjusts data types in each column to SQL type, ensuring successful loading into a specific database.</p>
+                                <p class="project-desc">Python script designed to upload various Excel files from a specific folder as tables into Snowflake. The program removes special characters from headers, adjusts data types in each column to SQL type, ensuring successful loading into a specific database.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/upload-snowflake/tree/main" target="_blank"
                                         title="GitHub">
