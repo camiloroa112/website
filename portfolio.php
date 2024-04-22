@@ -358,7 +358,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Email Reply - Send</h2>
                             <div class="px-2">
-                                <p class="project-desc">Python script developed to send bulk emails with a preconfigured HTML format and autofile attachment via Outlook. Recipients are specified through an Excel file, with an additional option for preserving the format of email replies.</p>
+                                <p class="project-desc">Python script developed to send bulk emails with a preconfigured HTML format with a standard text and autofile attachment in Outlook. Recipients are specified through an Excel file, with an additional option for preserving the format of email replies.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/email-send-reply" target="_blank"
                                         title="GitHub">
