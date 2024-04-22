@@ -135,7 +135,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">My Website</h2>
                             <div class="px-2">
-                                <p class="project-desc">Presentation of the public repository on GitHub containing the files used in the development of the current website. The page responsiveness was designed with Bootstrap, dynamic loading of elements using Ajax, and styling with CSS3.</p>
+                                <p class="project-desc">Presentation of the public repository on GitHub which contains the files that were used in the development of the current website. The page responsiveness was designed with Bootstrap, dynamic loading of elements using Ajax, and styling with CSS3.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/website" target="_blank" title="Website">
                                         <i class="fa-brands fa-github"></i>
@@ -179,7 +179,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">AMP Exporter</h2>
                             <div class="px-2">
-                                <p class="project-desc">Project that automates table creation and query execution in Snowflake based on instructions entered within a dictionary in Jupyter Notebook. The program writes queries, generates Excel reports, and offers additional functionalities to perform specific tasks.</p>
+                                <p class="project-desc">Project that automates table creation and query execution in Snowflake based on instructions entered within a input dictionary. The program writes queries, generates Excel reports, and offers additional functionalities to perform specific tasks.</p>
                                 <p>Source code:
                                     <a title="Not Available">
                                         <i class="fa-brands fa-github"></i>
