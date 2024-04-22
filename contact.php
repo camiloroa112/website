@@ -73,6 +73,17 @@ if ($_POST && isset($_POST["submit"])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src=https://www.googletagmanager.com/gtag/js?id=G-HDWTYWVQV2></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-HDWTYWVQV2');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
@@ -84,17 +95,6 @@ if ($_POST && isset($_POST["submit"])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Contact</title>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src=https://www.googletagmanager.com/gtag/js?id=G-HDWTYWVQV2></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-HDWTYWVQV2');
-</script>
 <body id="contact" class="d-flex flex-column min-vh-100">
     <header class="container">
     <nav class="navbar navbar-expand-md">
