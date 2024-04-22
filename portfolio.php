@@ -426,7 +426,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Excel Cleanser</h2>
                             <div class="px-2">
-                                <p class="project-desc">Python script designed to perform cleaning, sorting, and consolidation processes on various Excel reports downloaded from SAP. It contains different inputs to guide the user on the desired instruction and the status of the process.</p>
+                                <p class="project-desc">Python script designed to perform cleaning, sorting, and consolidation processes on various Excel reports downloaded from SAP. It contains different inputs that provides guidance to the user on the desired instruction and the status of the process.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/excel-cleanser/tree/main" target="_blank"
                                         title="GitHub">
