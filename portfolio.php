@@ -215,7 +215,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Portfolio</h2>
                             <div class="px-2">
-                                <p class="project-desc">Exercise proposed by the DePC Suite academy, putting into practice the knowledge acquired in tools such as HTML5, CSS3, and Bootstrap by replicating a webpage considering its styles, responsive design, separation of elements by columns, and semantic use of tags.</p>
+                                <p class="project-desc">Exercise proposed by the DePC Suite, applying the knowledge acquired in tools such as HTML5, CSS3, and Bootstrap by replicating a webpage considering its styles, responsive design, separation of elements by columns, and semantic use of tags.</p>
                                 <p>Source code:
                                     <a href="https://github.com/camiloroa112/portfolio"  title="GitHub">
                                         <i class="fa-brands fa-github"></i>
