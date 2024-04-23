@@ -58,7 +58,7 @@
             <div class="container">
                 <h1 class="pt-4 text-center">Biography</h1>
                 <div class="text-center">
-                    <img src="img/Work/camilo-biography.jpg" alt="Camilo Roa" class="img-fluid profile mt-4 mx-auto d-block">
+                    <img src="img/Work/camilo-bio.jpg" alt="Camilo Roa" class="img-fluid profile mt-4 mx-auto d-block">
                 </div>
                 <p class="pt-3 pb-3 text-center"><i>Militia est vita hominis super terrvm</i></p>
                 <div class="row">
