@@ -110,7 +110,7 @@
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-code"></i>
                             </div>
-                            <div class="col-10 d-inline-block">
+                            <div class="col-8 d-inline-block">
                                 <p>Process Automation</p>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-square-poll-horizontal"></i>
                             </div>
-                            <div class="col-10 d-inline-block">
+                            <div class="col-8 d-inline-block">
                                 <p>Data Analysis</p>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-share-nodes"></i>
                             </div>
-                            <div class="col-10 d-inline-block">
+                            <div class="col-8 d-inline-block">
                                 <p>Process Improvement</p>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-brain"></i>
                             </div>
-                            <div class="col-10 d-inline-block">
+                            <div class="col-8 d-inline-block">
                                 <p>Creativity</p>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-person-chalkboard"></i>
                             </div>
-                            <div class="col-10 d-inline-block">
+                            <div class="col-8 d-inline-block">
                                 <p>Leadership</p>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                             <div class="col-1 d-inline-block">
                                 <i class="fa-regular fa-calendar-xmark"></i>
                             </div>
-                            <div class="col-10 d-inline-block">
+                            <div class="col-8 d-inline-block">
                                 <p>Time Management</p>
                             </div>
                         </div>
