@@ -106,7 +106,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-6 col-xl-3 background mt-3">
                         <h2 class="pt-3 pb-3">My Expertise</h2>
-                        <div class="col-12 pt-3 pl-3">
+                        <div class="col-12 pt-3 pl-4">
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-code"></i>
                             </div>
@@ -114,7 +114,7 @@
                                 <p>Process Automation</p>
                             </div>
                         </div>
-                        <div class="col-12 pl-3">
+                        <div class="col-12 pl-4">
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-square-poll-horizontal"></i>
                             </div>
@@ -122,7 +122,7 @@
                                 <p>Data Analysis</p>
                             </div>
                         </div>
-                        <div class="col-12 pl-3">
+                        <div class="col-12 pl-4">
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-share-nodes"></i>
                             </div>
@@ -133,7 +133,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-6 col-xl-3 background2 mt-3">
                         <h2 class="pt-3 pb-3">Soft Skills</h2>
-                        <div class="col-12 pt-3 pl-3">
+                        <div class="col-12 pt-3 pl-4">
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-brain"></i>
                             </div>
@@ -141,7 +141,7 @@
                                 <p>Creativity</p>
                             </div>
                         </div>
-                        <div class="col-12 pl-3">
+                        <div class="col-12 pl-4">
                             <div class="col-1 d-inline-block">
                                 <i class="fa-solid fa-person-chalkboard"></i>
                             </div>
@@ -149,7 +149,7 @@
                                 <p>Leadership</p>
                             </div>
                         </div>
-                        <div class="col-12 pl-3">
+                        <div class="col-12 pl-4">
                             <div class="col-1 d-inline-block">
                                 <i class="fa-regular fa-calendar-xmark"></i>
                             </div>
