@@ -130,7 +130,7 @@
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    width: calc(1.2rem + 1.2vw + 1.2vh); /*calc(2.3rem + 2vw + 2vh); 12vh*/
+    width: calc(1.1rem + 1.1vw + 1.1vh); /*calc(2.3rem + 2vw + 2vh); 12vh*/
     font-size: calc(0.32rem + 0.32vw);
 }
 
