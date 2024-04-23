@@ -71,7 +71,7 @@
                         <div class="background pb-3">
                             <h2 class="text-center">Efficient Frontier</h2>
                             <div class="px-2">
-                                <p class="project-desc">Python project showcasing the efficient frontier graph, representing profit maximization subject to risk. It allows identifying the optimal point where a combination of assets yields higher returns based on the assumed risk in the operation.</p>
+                                <p class="project-desc">Python project showcasing the efficient frontier graph, representing profit maximization subject to risk. It allows identifying the optimal point where with a combination of assets yields higher returns based on the assumed risk in the operation.</p>
                                 <p>Source code:
                                     <a title="In Progress">
                                         <i class="fa-brands fa-github"></i>
