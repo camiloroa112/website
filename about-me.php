@@ -107,7 +107,7 @@
                     <div class="col-sm-12 col-lg-6 col-xl-3 background mt-3">
                         <h2 class="pt-3 pb-3">My Expertise</h2>
                         <div class="col-12 pt-3 pl-4">
-                            <div class="col-1 d-inline-block">
+                            <div class="col-3 d-inline-block">
                                 <i class="fa-solid fa-code"></i>
                             </div>
                             <div class="col-8 d-inline-block">
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                         <div class="col-12 pl-4">
-                            <div class="col-1 d-inline-block">
+                            <div class="col-3 d-inline-block">
                                 <i class="fa-solid fa-square-poll-horizontal"></i>
                             </div>
                             <div class="col-8 d-inline-block">
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="col-12 pl-4">
-                            <div class="col-1 d-inline-block">
+                            <div class="col-3 d-inline-block">
                                 <i class="fa-solid fa-share-nodes"></i>
                             </div>
                             <div class="col-8 d-inline-block">
@@ -134,7 +134,7 @@
                     <div class="col-sm-12 col-lg-6 col-xl-3 background2 mt-3">
                         <h2 class="pt-3 pb-3">Soft Skills</h2>
                         <div class="col-12 pt-3 pl-4">
-                            <div class="col-1 d-inline-block">
+                            <div class="col-3 d-inline-block">
                                 <i class="fa-solid fa-brain"></i>
                             </div>
                             <div class="col-8 d-inline-block">
@@ -142,7 +142,7 @@
                             </div>
                         </div>
                         <div class="col-12 pl-4">
-                            <div class="col-1 d-inline-block">
+                            <div class="col-3 d-inline-block">
                                 <i class="fa-solid fa-person-chalkboard"></i>
                             </div>
                             <div class="col-8 d-inline-block">
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                         <div class="col-12 pl-4">
-                            <div class="col-1 d-inline-block">
+                            <div class="col-3 d-inline-block">
                                 <i class="fa-regular fa-calendar-xmark"></i>
                             </div>
                             <div class="col-8 d-inline-block">
