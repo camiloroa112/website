@@ -109,29 +109,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-1">
-                        <div id="carouselExample" class="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/Website/Inicio.png" class="d-block w-100 img-fluid" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Website/Portafolio.png" class="d-block w-100 img-fluid" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Website/Hoja de Vida.png" class="d-block w-100 img-fluid" alt="...">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                        <img src="img/Website/Inicio.png" alt="" class="img-fluid">
                         <div class="background pb-3">
                             <h2 class="text-center">My Website</h2>
                             <div class="px-2">
@@ -173,9 +151,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
-                        <video playsinline class="img-fluid" autoplay loop muted>
-                            <source src="img/Projects/amp-exporter.mp4" type="video/mp4">
-                        </video>
+                    <img src="img/Projects/amp-exporter.jpg" alt="" class="img-fluid">
                         <div class="background pb-3">
                             <h2 class="text-center">AMP Exporter</h2>
                             <div class="px-2">
@@ -247,41 +223,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
-                            data-bs-interval="1800">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/Dashboard/Demo 1.png" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dashboard/Demo 2.png" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dashboard/Digital Ranker.png" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dashboard/Interests.png" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dashboard/Location.png" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dashboard/Mapping & DMA.png" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dashboard/Personicx.png" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dashboard/Psychographics.png" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dashboard/TV Program Ranker.png" class="d-block w-100">
-                                </div>
-                            </div>
-                        </div>
-                        
+                        <img src="img/Dashboard/Demo 1.png" class="d-block w-100">
                         <div class="background pb-3">
-                            <h2 class="text-center">HVA Dashboard</h2>
+                            <h2 class="text-center">Audience Dashboard</h2>
                             <div class="px-2">
                                 <p class="project-desc">Project that automates Excel report generation by executing Snowflake queries from Jupyter Notebook, being imported into Tableau. The Dashboard presents high-value insights about audience demographics, interests, location, and other profiling aspects.</p>
                                 <p>Source code:

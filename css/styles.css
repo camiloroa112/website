@@ -114,7 +114,7 @@
     text-align: center;
     color: white;
     transition: 0.5s;
-    font-size: calc(0.8rem + 0.8vw);
+    font-size: calc(0.65rem + 0.65vw);
     background-size: 200% auto;
 }
 
@@ -130,8 +130,8 @@
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    width: calc(1.1rem + 1.1vw + 1.1vh); /*calc(2.3rem + 2vw + 2vh); 12vh*/
-    font-size: calc(0.32rem + 0.32vw);
+    width: calc(1.4rem + 1.4vw + 1.4vh);
+    font-size: calc(0.28rem + 0.28vw);
 }
 
 #projects .resource:hover
