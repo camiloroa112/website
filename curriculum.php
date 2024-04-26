@@ -275,7 +275,7 @@
                                     Best practices were employed throughout the code, including the use of docstrings for function documentation, adherence to PEP8 coding style, implementation of unit tests to identify potential errors, and automation of tests prior to repository updates on GitHub. Finally, version control of the code was ensured through Git commands.
                                 </li>
                             </ul>
-                            <h4>Project - HVA Dashboard</h4>
+                            <h4>Project - Audience Dashboard</h4>
                             <ul>
                                 <li>
                                     Development of a Tableau Dashboard designed to derive high-value insights from demographic information, perspectives, opinions, visited locations, and TV programs viewed by an audience. These insights are visually, numerically, and succinctly represented.
