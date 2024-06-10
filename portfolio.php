@@ -73,7 +73,7 @@
                             <div class="px-2">
                                 <p class="project-desc">Python project showcasing the efficient frontier graph, representing profit maximization subject to the risk. It identifies the optimal point where with a combination of assets yields higher returns based on the assumed risk in the operation.</p>
                                 <p>Source code:
-                                    <a title="In Progress">
+                                    <a href="https://github.com/camiloroa112/efficient-frontier" target="_blank" title="Efficient Frontier">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
                                 </p>
@@ -108,7 +108,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-1">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-3">
                         <img src="img/Website/Inicio.png" alt="" class="img-fluid">
                         <div class="background pb-3">
                             <h2 class="text-center">My Website</h2>
